@@ -1,4 +1,7 @@
 <?php
+	if(!file_exists('config.php'))
+		copy('config.php.example', 'config.php');
+
 	require 'config.php';
 
 	if(!$cache_enabled) {
