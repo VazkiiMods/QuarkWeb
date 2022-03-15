@@ -48,5 +48,24 @@ These instructions assume you have push permissions to the repository. If you do
 * Additional images are to be 500px width .jpgs
 * The content of `desc` must not cause the corresponding card to stop laying flush with the image box ([as such](https://puu.sh/IOXH6/dc278d90a6.png). If more space is needed, use `expand`
 
+
+**Committing**
+
+* Once you've made your changes, you must commit them to the repository. Open Sublime Merge, and your changes will be shown there.
+* Write a commit message at the top, and press Stage All:
+
+![](https://puu.sh/IOXOs/6a1b366aa1.png)
+
+* Following that, commit your change, then pull and push, in that order:
+
+![](https://puu.sh/IOXPw/8fa062d1ad.png)
+
+* If all went well, your change should be live in the repository here on GitHub
+
 **What to document?**
+
 To find out what is currently missing, compare the date of the latest update to the date of the previous Quark version. (e.g. if the website was updated on March 12, and there's versions released on March 10 and March 15, any content changes from the March 15 version onwards need to be added). You can find the list of released Quark versions on the [CurseForge versions list](https://www.curseforge.com/minecraft/mc-mods/quark/files).
+
+**Troubleshooting**
+
+If the result of your changes is incorrect or you get an error, try pasting your features.json content into https://jsonlint.com - this should help you locate syntax errors and fixing them.
