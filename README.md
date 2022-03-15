@@ -44,6 +44,8 @@ These instructions assume you have push permissions to the repository. If you do
 
 **Editing Standards**
 * `image`s must be 400x400 .jpgs, located in the appropriate category under /img/features
+* Additional images other than the main feature ones should be included in subfolders (see /img/features/oddities/pipes)
+* Additional images are to be 500px width .jpgs
 * The content of `desc` must not cause the corresponding card to stop laying flush with the image box ([as such](https://puu.sh/IOXH6/dc278d90a6.png). If more space is needed, use `expand`
 
 **What to document?**
