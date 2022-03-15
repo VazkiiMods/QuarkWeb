@@ -1,0 +1,1555 @@
+{
+	"automation":{
+		"name":"Automation",
+		"description":"This module adds features to minecraft's automation prospects.",
+		"features":[
+			{
+				"name":"Dispenser Planting",
+				"classname":"DispensersPlaceSeeds",
+				"description":"Dispensers can plant seeds on the correct type of soil.<br><br>This works for all overworld seeds, on Tilled Soil, Nether Wart, on Soul Sand, and Chorus Flower on End stone. Cocoa Beans can be planted if there's a Jungle Wood block in front of the dispenser.",
+				"image":"dispensers.jpg",
+				"introduced":9,
+				"overlap": ["Botania", "Animania"]
+			},
+			{
+				"name":"Piston Block Breakers",
+				"classname":"PistonSpikes",
+				"description":"Pistons pushing an Iron Rod will have it work as a drill of sorts, breaking any blocks in front in the direction the rod is facing. These can break anything the piston can push.<br><br>Iron Rods are crafted with 2 Iron Ingots and an End Rod, or just 3 Iron Ingots if you enable easy mode in the config.<br><br>Note: In 1.10, a normal End Rod block is used instead.",
+				"image":"piston-block-breakers.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Ender Watcher",
+				"classname":"EnderWatcher",
+				"description":"The Ender Watcher is a new redstone input block. It emits a full redstone signal if a player is looking directly at it.<br><br>It's crafted with an Eye of Ender, Redstone and Blocks of Biotite (from the World module, or Obsidian if not enabled).",
+				"image":"ender-watcher.jpg",
+				"introduced":9,
+				"overlap": ["Botania"]
+			},
+			{
+				"name":"Hungry Animals",
+				"classname":"AnimalsEatFloorFood",
+				"description":"that have a breeding food assigned to them will eat it from the floor at any time they can have it fed manually, provided the food is nearby.",
+				"image":"floor-food-eating.jpg",
+				"introduced":10,
+				"overlap": ["BetterWithMods","EasyBreeding"]
+			},
+			{
+				"name":"Obsidian Pressure Plates",
+				"classname":"ObsidianPressurePlate",
+				"description":"Pressure Plates made with obsidian will only trigger when Players walk over them.",
+				"image":"obsidian-plates.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Weather Sensor",
+				"classname":"RainDetector",
+				"description":"The Weather Sensor is crafted with Purpur Slabs, Biotite (from the World module, or Obsidian if not enabled) and Glass. It works like a Daylight Sensor, but it emits a full redstone signal if it's raining or snowing.<br><br>Right clicking it inverts its output.",
+				"image":"weather-sensor.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Pistons Move Tile Entities",
+				"classname":"PistonsMoveTEs",
+				"description":"Pistons are allowed to move Tile Entities (blocks with extra data attached, like Chests or Furnaces).<br>Attempting to move a block to an invalid position will cause it to break and drop its contents (e.g. trying to create a triple chest).<br>Monster Spawners can't be moved this way.<br><br>For a block that pistons can't move, now that furnaces can't be used, look into Sturdy Stone in the Building module.",
+				"image":"pistons-move-tes.jpg",
+				"introduced":11
+			},
+			{
+				"name":"Dispensers Place Blocks",
+				"classname":"DispensersPlaceBlocks",
+				"description":"Dispensers are allowed to place blocks in the world. Any blocks that already had a placement behaviour, like TNT, are ignored.<br><br>The blocks are rotated so they're placed forward from the dispenser.",
+				"image":"dispensers-place-blocks.jpg",
+				"introduced":11,
+				"overlap": ["BlockDispenser"]
+			},
+			{
+				"name":"Dispensers Play Records",
+				"classname":"DispenserRecords",
+				"description":"Dispensers can play records if there's a Jukebox directly in front of them. If there's already a record in the Jukebox, it gets placed back in the dispenser.",
+				"image":"dispenser-jukebox.jpg",
+				"introduced":11
+			},
+			{
+				"name":"Pistons Push/Pull Items",
+				"classname":"PistonsPushPullItems",
+				"description":"Pistons can push dropped items to make them fly! Sticky Pistons can't do this, but they can pull the items back.<br><br>Click the album icon in the bottom of this card for a demo video.",
+				"image":"pistons-push-items.jpg",
+				"album":"https://streamable.com/of1ew",
+				"introduced":12
+			},
+			{
+				"name":"Chute",
+				"classname":"Chute",
+				"description":"The Chute is a new automation block. Items can be inserted into it via automation (Hopper, Dropper, etc), and any items inserted are instantly dropped under it, always precisely in the center.<br><br>The Chute can be disabled with a redstone signal or by placing a block under it.",
+				"image":"chute.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Metal Buttons",
+				"classname":"MetalButtons",
+				"description":"Combining a Wooden Button with either an Iron Ingot or a Gold Ingot creates a button of that type.<br><br>Drawing influence from Weighted Pressure Plates, Gold Buttons emit a very short pulse (2 redstone ticks), whereas Iron Buttons emit a very long pulse (5 seconds).",
+				"image":"metal-buttons.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Redstone Randomizer",
+				"classname":"RedstoneRandomizer",
+				"description":"The Redstone Randomizer is a new redstone circuit piece, made in the same way as a comparator, but with Biotite instead (from the World module, or an Eye of Ender if it's disabled).<br><br>Whenever the Randomizer receives a signal from the back, it'll enable either the left or right output, randomly.",
+				"image":"redstone-randomizer.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Sugar Block",
+				"classname":"SugarBlock",
+				"description":"As a standard storage block affair, you can craft a Sugar Block with 9 Sugar.<br><br>The Sugar Block will fall like sand and gravel. Furthermore, if a Sugar Block is next to water, it'll simply dissolve and turn into air. I'm sure you can come up with some cool uses for this.",
+				"image":"sugar-block.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Iron Chains",
+				"classname":"ChainLinkage",
+				"description":"Iron Chains can be crafted with Iron Ingots and Nuggets.<br><br>When right clicked onto a boat or minecart, and then onto another, they'll link the two. Linked boats and minecarts will always remain at close distance, which allows you to make trains.<br><br>Additionally, Iron Chains can be used to craft chainmail armor.",
+				"image":"chain.jpg",
+				"contributor": "WireSegal",
+				"introduced":12
+			},
+			{
+				"name":"Color Slime",
+				"classname":"ColorSlime",
+				"description":"Slime blocks can be dyed Red and Blue. The primary color blocks (Red, Green, and Blue) can be combined to create secondary colors (Cyan, Magenta, and Yellow).<br><br>While being moved by pistons, two slime blocks will only connect if they're the same color, or if one is made of another (so Red won't connect to Blue, but it'll connect to Magenta). Any color of slime will connect to non-slime blocks around it normally.",
+				"image":"color-slime.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Gravisand",
+				"classname":"Gravisand",
+				"description":"Gravisand is a new sand variant, crafted with sand and an ender pearl.<br><br>Gravisand will not fall unless primed with redstone. However, if gravisand receives a signal, and can not fall, it'll instead float up. Additionally, gravisand will propagate the signal to any adjacent gravisand blocks, causing them to fall or float as well.<br><br>Gravisand allows for a variety of redstone components, especially as its magnetic properties have it constantly output a comparator signal of 15.",
+				"image":"gravisand.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Redstone Inductor",
+				"classname":"RedstoneInductor",
+				"description":"The Redstone Inductor is a new redstone circuit piece, made with Stone, Redstone, and Magma Cream. The output value of the inductor is the sum of all 3 input sides.<br><br>The inductor may also be locked by having a repeater or a comparator pointing to it. While locked, it'll maintain its output value regardless of any changes on the sides.",
+				"image":"redstone-inductor.jpg",
+				"contributor": "WireSegal",
+				"introduced":12
+			}
+		]
+	},
+	"building":{
+		"name":"Building",
+		"description":"This module adds new structural building blocks and building utensils.",
+		"features":[
+			{
+				"name":"Bark Blocks",
+				"classname":"BarkBlocks",
+				"description":"Log-type blocks with the log \"bark\" texture on all sides. Crafted with a 2x2 of the respective log. Can be turned into walls.",
+				"image":"bark-blocks.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Carved Wood",
+				"classname":"CarvedWood",
+				"description":"Carved Wood is a cornerstone type block for wood, made with a 2x2 of the respective wood slab.",
+				"image":"carved-wood.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Charred Nether Bricks",
+				"classname":"CharredNetherBricks",
+				"description":"Charred Nether Bricks bring a slate-like tone for a dark but not black block. Crafted with a Nether Brick (block) and a Fire Charge. They can also be used for stairs and slabs.",
+				"image":"charred-nether-bricks.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Clay Shingles",
+				"classname":"HardenedClayTiles",
+				"description":"\"Tile\" style blocks for Hardened Clay and all colors of Stained Clay. They can all be turned into stairs and slabs, and look great for roofs.<br><br>4 Blocks are crafted with a 2x2 of the respective Hardened/Stained Clay block.",
+				"image":"clay-tiles.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Iron Plates",
+				"classname":"IronPlates",
+				"description":"Iron Plate blocks can be created with 8 Iron Ingots in the donut shape, this recipe outputs 24 plates. Putting a Water Bucket in the middle will create Rusty Iron Plates instead.<br><br>Iron Plates can also be turned into stairs and slabs.",
+				"image":"iron-plates.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Midori Blocks",
+				"classname":"MidoriBlocks",
+				"description":"Midori Blocks are a green counterpart to Purpur. These are made with Cactus Green, with the same recipes as the Purpur blocks.<br><br>Midori means \"green\" in Japanese.",
+				"image":"midori.jpg",
+				"introduced":10
+			},
+			{
+				"name":"More Sandstone",
+				"classname":"MoreSandstone",
+				"description":"(Red) Sandstone was begging for more variants, so now we have Polished Sandstone and Sandstone Bricks. Polished Sandstone is crafted with a square shape of Sandstone, whereas Sandstone Bricks are crafted with the standard brick recipe using Polished Sandstone. Of course these recipes are the same for Red Sandstone.<br><br>Polished Sandstone can be used for slabs, whereas Sandstone Bricks can be used for slabs and stairs.<br><br>(not pictured, variants for Soul Sandstone as well, if it's enabled)",
+				"image":"new-sandstone.jpg",
+				"introduced":9
+			},
+			{
+				"name":"More Stone Bricks",
+				"classname":"WorldStoneBricks",
+				"description":"Stone Bricks for Granite, Diorite and Andesite. Crafted with a 2x2 of the Polished variant. All of them can be used for stairs, slabs, and walls.",
+				"image":"stone-bricks.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Polished Stone",
+				"classname":"PolishedStone",
+				"description":"Created with 2 Stone Slabs, similarly to Chiseled Sandstone. Looks like the top of the Stone Slab texture on all sides.",
+				"image":"polished-stone.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Sandy Bricks",
+				"classname":"SandyBricks",
+				"description":"Bricks with a sandy tone, crafted with a Brick block and a Sand Block. They can also be used for stairs, slabs, and walls.",
+				"image":"sandy-bricks.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Snow Bricks",
+				"classname":"SnowBricks",
+				"description":"Snow Bricks, for all your igloo and winter wonderland needs. They can also be used for stairs, slabs, and walls.",
+				"image":"snow-bricks.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Soul Sandstone",
+				"classname":"SoulSandstone",
+				"description":"Sandstone made of Soul Sand. All recipes are as expected.<br><br>Soul Sandstone can be turned into Stairs, Slabs, and Walls.",
+				"image":"soul-sandstone.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Vanilla Stairs and Slabs",
+				"classname":"VanillaStairsAndSlabs",
+				"description":"Stairs and Slabs for a bunch of vanilla materials: Stone, Granite, Diorite, Andesite, End Bricks, Prismarine, Prismarine Bricks, Dark Prismarine, Red Nether Bricks, Moss Stone, and Mossy Stone Bricks.",
+				"image":"vanilla-stairs-slabs.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Vanilla Walls",
+				"classname":"VanillaWalls",
+				"description":"Walls for a bunch of vanilla materials: Stone, Stone Bricks, Granite, Diorite, Andesite, Sandstone, Red Sandstone, End Bricks, Purpur, Prismarine, Prismarine Bricks, Dark Prismarine, Bricks, Quartz, and Mossy Stone Bricks.",
+				"image":"vanilla-walls.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Sugar Cane Blocks",
+				"classname":"ReedBlock",
+				"description":"A 3x3 of Sugar Canes creates a Sugar Cane Block. These can be turned into stairs, slabs and walls. You can also turn them back into Sugar Canes, if you want.",
+				"image":"reed-blocks.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Thatch",
+				"classname":"Thatch",
+				"description":"Thatch is created via a 2x2 of Wheat. It can be used for stairs and slabs or turned back into 4 Wheat.",
+				"image":"thatch.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Vertical Wooden Planks",
+				"classname":"VerticalWoodPlanks",
+				"description":"Putting 3 wooden planks in a vertical line creates 3 Vertical Wooden Planks. Doing the same reverts it.<br><br>If Stained Wooden Planks is enabled, vertical versions of those are also added.",
+				"image":"vertical-planks.jpg",
+				"introduced":10
+			},
+			{
+			"name":"Duskbound Blocks",
+				"classname":"DuskboundBlocks",
+				"description":"Purple looking blocks made from Purpur and Obsidian, fully featured with stair, slab and wall variants.<br><br>Also includes Duskbound Lamps, made with Duskbound Blocks and Ender Pearls.",
+				"image":"duskbound-blocks.jpg",
+				"introduced":11
+			},
+			{
+				"name":"Netherwrought Stone",
+				"classname":"PolishedNetherrack",
+				"description":"A red block for nether-ish style building, made with 4 Netherrack, with a chaotic textured brick variant. Includes stair, slab and wall variants.",
+				"image":"netherwrought-stone.jpg",
+				"introduced":11
+			},
+			{
+				"name":"Stained Wooden Planks",
+				"classname":"StainedPlanks",
+				"description":"Dyed Wooden Planks of all 16 colors, featuring a pastel color palette so you can actually build with them without making your eyes hurt! All include stair and slab variants.",
+				"image":"stained-wood.jpg",
+				"introduced":11
+			},
+			{
+				"name":"Sturdy Stone",
+				"classname":"SturdyStone",
+				"description":"A hard stone block made with 4 Stone and 4 Cobblestone (outputs 4). The block has the Furnace Texture, and can not be moved by Pistons.",
+				"image":"sturdy-stone.jpg",
+				"introduced":11
+			},
+			{
+				"name":"Quilted Wool",
+				"classname":"QuiltedWool",
+				"description":"Crafting Wool with String creates Quilted Wool. Quilted Wool comes in all colors and has a framed design.",
+				"image":"quilted-wool.jpg",
+				"introduced":11
+			},
+			{
+				"name":"Trowel",
+				"classname":"Trowel",
+				"description":"A Trowel tool can be crafted with Iron and Sticks. The Trowel, when right clicked, will place a random block from your hotbar, making it useful for ruins or paths.<br><br>A Trowel will break after placing 256 blocks.",
+				"image":"trowel.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Magma Bricks",
+				"classname":"MagmaBricks",
+				"description":"Magma Bricks can be crafted by combining Magma and Stone Bricks. Similarly to Magma, these shine but don't emit light. Magma Bricks are also available as stairs and slabs.",
+				"image":"magma-bricks.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Framed Glass",
+				"classname":"FramedGlass",
+				"description":"Combine Iron Ingots and Glass, and you get yourself some fancy Framed Glass, great for some more rustic or medieval builds.<br><br>You can also craft Panes with these, of course.",
+				"image":"framed-glass.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Stone Pavement",
+				"classname":"WorldStonePavement",
+				"description":"Crafting a 3x3 of any sort of the world stone types will make Pavement. This block is inspired by the Portuguese sidewalks, and is awesome for that very purpose.<br><br>For extra fun, these are designed to look amazing with the Chisels & Bits mod, so go ahead and make some crazy patterns.",
+				"image":"pavement.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Turf",
+				"classname":"Turf",
+				"description":"Turf Blocks can be crafted using a few bits of Tall Grass.<br><br>These blocks have the grass texture and coloring on all sides, are available in stair and slab variants, and do not decay when a block is on top.",
+				"image":"turf.jpg",
+				"introduced":12
+			}
+		]
+	},
+	"decoration":{
+		"name":"Decoration",
+		"description":"This module adds new decorative building blocks and improves vanilla ones.",
+		"features":[
+			{
+				"name":"All The Bookshelves",
+				"classname":"VariedBookshelves",
+				"description":"You can now make Bookshelves out of all wood types. All of these bookshelves work for the Enchanting Table too.",
+				"image":"bookshelves.jpg",
+				"introduced":10
+			},
+			{
+				"name":"All The Chests",
+				"classname":"VariedChests",
+				"description":"Just like trapdoors and bookshelves, this allows you to make chests of all wood types. It also adds a recipe to make 4 chests at once, using 8 wood logs of the respective type in the same donut pattern.",
+				"image":"chests.jpg",
+				"introduced":10
+			},
+			{
+				"name":"All The Trapdoors",
+				"classname":"VariedTrapdoors",
+				"description":"This allows you to make trapdoors of all wood blocks rather than just Oak. It also changes the recipe to create 6 rather than 2 trapdoors, since doors make 3.",
+				"image":"trapdoors.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Blaze Lantern",
+				"classname":"BlazeLantern",
+				"description":"The Blaze Lantern is the fire equivalent of the Sea Lantern. Crafted with a + of Blaze Powder and Blaze Rods in the corners, like a Sea Lantern.",
+				"image":"blaze-lantern.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Block of Charcoal",
+				"classname":"CharcoalBlock",
+				"description":"It's a Block of Charcoal. Made with 9 Charcoal. Not sure what you expected here.<br><br>Similarly to Netherrack, this block retains fire.",
+				"image":"charcoal-block.jpg",
+				"introduced":9,
+				"overlap": ["ActuallyAdditions", "Mekanism"]
+			},
+			{
+				"name":"Colored Beds",
+				"classname":"",
+				"description":"Beds made with different types of wool will have that wool color. If you mix wool types you'll get a white bed instead.",
+				"image":"colored-beds.jpg",
+				"introduced":10,
+				"added_to_vanilla":12
+			},
+			{
+				"name":"Colored Item Frames",
+				"classname":"ColoredItemFrames",
+				"description":"Item Frames can be combined with any Dye to color them. All functionality remains the same.",
+				"image":"colored-item-frames.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Flat Item Frames",
+				"classname":"FlatItemFrames",
+				"description":"Item Frames and Colored Item Frames can be placed on floors and ceilings. The top of the frame is oriented north in both cases.",
+				"image":"flat-item-frames.jpg",
+				"introduced":11,
+				"contributor": "gibraltarMC",
+				"overlap": ["Strait"]
+			},
+			{
+				"name":"Iron Ladders",
+				"classname":"IronLadders",
+				"description":"Iron Ladders can be crafted with the H shape of Iron Ingots. They work like normal ladders, except that they can stand by themselves as long as there is an Iron Ladder on top of them, like in the picture.",
+				"image":"iron-ladders.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Leaf Carpet",
+				"classname":"LeafCarpets",
+				"description":"Leaf Carpet can be made with all types of leaves in the same recipe as wool carpet. It can be harvested by hand and has no collision box.",
+				"image":"leaf-carpet.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Lit Redstone Lamp",
+				"classname":"LitLamp",
+				"description":"Combining a Redstone Lamp with a Redstone Torch creates a Lit Redstone lamp, that's always emitting light.",
+				"image":"lit-lamp.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Nether Brick Fence Gate",
+				"classname":"NetherBrickFenceGate",
+				"description":"A Fence Gate made of Nether Bricks. Crafted with Nether Brick blocks in the place of planks and Nether Brick Fences in the place of Sticks. The recipe outputs 2.",
+				"image":"nether-brick-fence-gate.jpg",
+				"introduced":9
+			},
+			{
+				"name":"New Banner Motifs",
+				"classname":"MoreBanners",
+				"description":"New banner motifs can be made using Dragon Heads, Eyes of Ender, Iron Swords, and Iron Chestplates, alongside the chosen color of dye.",
+				"image":"banner-icons.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Paper Walls",
+				"classname":"PaperWall",
+				"description":"Paper Walls use the \"pane\" look, which lets you make fancy oriental style buildings. Thanks to the new 1.9 change that makes standalone panes look like poles, they can also be used to make makeshift \"tiki torches\".<br><br>Paper Walls come in three variants, and are crafted using Paper and Sticks. The variant with a tree in it can be made by crafting the big one with a sapling.",
+				"image":"paper-walls.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Glass Item Frame",
+				"classname":"GlassItemFrame",
+				"description":"Crafting an Item Frame with Glass Panes makes a Glass Item Frame. The frame itself will not render while an item is inside, and items inside render a bit larger than a normal Item Frame.<br><br>Some items will display differently on these frames. Shields will be a bit larger, and thus at a 1:1 scale. Banners will be scaled down to be square, and usable as wallpaper.",
+				"image":"glass-item-frame.jpg",
+				"introduced":11
+			},
+			{
+				"name":"Colored Flower Pots",
+				"classname":"ColoredFlowerPots",
+				"description":"Flower Pots can be combined with a dye to change their texture to that of the respective Stained Clay variant. All functionality remains the same.",
+				"image":"colored-flower-pots.jpg",
+				"introduced":11
+			},
+			{
+				"name":"Tallow and Candles",
+				"classname":"TallowAndCandles",
+				"description":"In an attempt to make pigs be useful in any way, they drop Tallow. Tallow can be crafted alongside String to create Candles, or as a furnace fuel.<br><br>Candles come in all 16 colors of the spectrum, and emit as much light as torches. Candles will also fall like sand if there's no block under them, which can have many fun uses.<br><br>Lastly, for Enchanting Table purposes, two candles equal one bookshelf.",
+				"image":"candles.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Unrestricted Flower Pots",
+				"classname":"BetterVanillaFlowerPot",
+				"description":"Flower pots can now hold all types of flowers, even ones added by mods.<br><br>If you're only using Quark, this will allow them to carry Glowshrooms.",
+				"image":"better-flower-pots.jpg",
+				"introduced":12,
+				"contributor": "KnightMiner",
+				"overlap": ["Inspirations"]
+			},
+			{
+				"name":"More Banner Layers",
+				"classname":"MoreBannerLayers",
+				"description":"Banners in survival are now allowed to have up to 16 layers, up from vanilla's amount of 6, which allows for more complex banner designs. You can change the amount in the config too.",
+				"image":"more-banner-layers.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Paper Lamps",
+				"classname":"PaperLantern",
+				"description":"Combine some Glowstone, Paper, and Sticks for a fancy Paper Lamp. These have a model that connects seamlessly to fences so you can make cool looking lights like the ones in the picture.<br><br>You can also combine a normal lamp with a sapling to make the decorated one with the tree in it.",
+				"image":"paper-lamps.jpg",
+				"introduced":12
+			},			
+			{
+				"name":"All The Buttons & Pressure Plates",
+				"classname":"VariedButtonsAndPressurePlates",
+				"description":"You can now make Buttons and Pressure Plates out of all wood types. They act exactly the same to the oak wood counterparts.<br><br><i>This feature was added as a backport of a 1.13 feature, and will be removed upon the release of 1.13</i>",
+				"image":"pressure-plates-buttons.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Tie Leads to Fences",
+				"classname":"TieFences",
+				"description":"Right click a Lead onto a Fence to tie the Lead to it, after this just right click on another fence to make a connection. This allows you to use the fence look at will without needing mobs.",
+				"image":"tie-leads.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Iron Grate",
+				"classname":"Grate",
+				"description":"The Iron Grate is a cool new block with multiple uses. Animals are afraid of walking on it, and will never do it, whereas items will just fall through the gaps.<br><br>Players, monsters, and other entities will just walk through normally.",
+				"image":"grate.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Rope",
+				"classname":"Rope",
+				"description":"Rope Coils can be crafted using String. This new block can be placed on the bottom face of a block, by players and dispensers, and dropped down by right clicking on the placed Rope block. Shift-right clicking, or right clicking with a non-rope item will pull the rope up.<br><br>If a block is at the end of the rope, it'll drop down and be pulled up alongside it. Lastly, as you'd expect, players can climb rope as if it were a ladder.",
+				"image":"rope.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Place Blaze Rods",
+				"classname":"PlaceBlazeRods",
+				"description":"Blaze Rods can be placed like a normal rod. They have no special properties, other than looking cool and giving off light.",
+				"image":"place-blaze-rods.jpg",
+				"introduced":12
+			}
+		]
+	},
+	"management":{
+		"name":"Management",
+		"description":"This module adds inventory management features.",
+		"features":[
+			{
+				"name":"Chest Buttons",
+				"classname":"ChestButtons",
+				"description":"Six buttons are added to Chest interfaces. From top to bottom, they do the following:<ul><li>Sort the chest (if the Sorting Button feature is enabled).</li><li>Deposit your entire inventory (not hotbar, armor or off-hand) in the chest.</li><li>Same as the previous, but only for items that the chest has at least one of inside.</li><li>Sort your inventory (if the Sorting Button feature is enabled).</li><li>Extract all items from the chest into your inventory.</li><li>Same as the previous, but only for items you have at least one of in your inventory.</li></ul>All of these buttons can be bound to a key for quick usage. None are bound by default.",
+				"image":"chest-buttons.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Delete Items",
+				"classname":"DeleteItems",
+				"description":"A new Trash Can icon is added to the right of the player's inventory. Throwing items in there will cause them to vanish into the either. Note that the item is deleted forever, this can't be undone.<br><br>Additionally, you can press Ctrl+DELETE while hovering over an item to delete that item from your inventory. Note that only the trash can icon is not available prior to 1.12, only the keybind.",
+				"image":"delete-items.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Dropoff Button",
+				"classname":"StoreToChests",
+				"description":"A \"Dropoff\" button is added to the inventory screen. Pressing this button deposits everything in your inventory (not hotbar, armor or off-hand) in nearby chests. The range it stores in is similar to the player's reach, so it won't store items in chests the player can't open. The closest chests are picked first.<br><br>If Shift is held, it stores items in \"smart\" mode, meaning it'll only store items in chests that already have at least one of that item.<br><br><i>This feature can be disabled from clients using /gamerule quark_allowDropoff false</i>",
+				"image":"dropoff.jpg",
+				"introduced":9
+			},
+			{
+				"name":"F to Switch",
+				"classname":"FToSwitchItems",
+				"description":"Pressing F on an item in the inventory swaps it with your off-hand item, just as if you'd pressed F outside of the inventory. This uses the same keybind used for that purpose.",
+				"image":"f-swap.jpg",
+				"introduced":9,
+				"overlap": ["VisibleArmorSlots"]
+			},
+			{
+				"name":"Favorite Items",
+				"classname":"FavoriteItems",
+				"description":"Alt+right clicking an item will make it a \"Favorite Item\". Favorite items are not deposited by the Dropoff button or the last two Chest buttons.",
+				"image":"favorites.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Item Linking",
+				"classname":"LinkItems",
+				"description":"Pressing Shift+T (or whatever your Chat key is set to) while looking at an item in an inventory links that item to chat. Other players can hover over it to check it out.",
+				"image":"link-items.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Sorting Button",
+				"classname":"InventorySorting",
+				"description":"A \"Sort\" button is added to the inventory screen. Pressing this button sorts your inventory, excepting your hotbar.<br><br>Sorting is done via a category system, in which items are placed based on what category they fit in (food, tool, armor, block, etc.). Each category also has its own sorting rules, e.g. food will get sorted based on which is more filling; tools will get sorted based on which one is the best, or has more durability.",
+				"image":"sorting-button.jpg",
+				"introduced":10,
+				"overlap": ["InvTweaks", "InventorySorter"]
+			},
+			{
+				"name":"Better Crafting Shift-Clicking",
+				"classname":"BetterCraftShifting",
+				"description":"Shift-clicking an item in your inventory in the crafting table interface will move it to the crafting grid, and not the hotbar.",
+				"image":"better-craft-shifting.jpg",
+				"introduced":11
+			},
+			{
+				"name":"Hotbar Changer",
+				"classname":"ChangeHotbarKeybind",
+				"description":"Pressing the Z key (X pre 1.12, rebindable) will show your entire inventory above your hotbar. You can then press 1, 2, or 3, to switch that respective inventory row with your hotbar. Pressing X again will hide the 3 additional rows with no change.",
+				"image":"hotbar-changer.jpg",
+				"introduced":11
+			},
+			{
+				"name": "Arrow Scrolling",
+				"classname": "RotateArrowTypes",
+				"description": "While sneaking and holding a bow, scrolling will cycle arrow positions in your inventory.",
+				"image": "arrow-scrolling.jpg",
+				"introduced": 12,
+				"contributor": "WireSegal"
+			},
+			{
+				"name":"Auto Tool Restock",
+				"classname":"AutomaticToolRestock",
+				"description":"If you break a tool and have a replacement in your inventory, the replacement will be instantly moved to your hotbar, so you can continue doing what you were doing.<br><br>This also understands important enchantments, so if you were mining with a silk touch pick, it'll try to find a silk touch pick before trying anything else. It also gives priority to tools of the same material.",
+				"image":"auto-tool-restock.jpg",
+				"introduced":12,
+				"overlap": ["InvTweaks"]
+			},
+			{
+				"name":"Chests in Boats",
+				"classname":"ChestsInBoats",
+				"description":"Right clicking a Chest onto a Boat adds the chest in as a passenger. To access the chest, simply enter the boat and open your inventory, just like you would for a horse. To remove the chest (and the items inside), break the boat.",
+				"image":"boat-chests.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Shulker Box Item Adding",
+				"classname":"RightClickAddToShulkerBox",
+				"description":"While holding an item in your cursor (that isn't a Shulker Box), you can right click on top of a non-full Shulker Box to add the item to it.",
+				"image":"right-click-shulker-box.jpg",
+				"introduced":12
+			}
+		]
+	},
+	"tweaks":{
+		"name":"Tweaks",
+		"description":"This module tweaks various gameplay elements.",
+		"features":[
+			{
+				"name":"Armed Armor Stands",
+				"classname":"ArmedArmorStands",
+				"description":"Armor Stands placed by the Armor Stand item will have arms.",
+				"image":"armor-stand.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Burning Baby Zombies",
+				"classname":"BabyZombiesBurn",
+				"description":"Baby Zombies will die in sunlight like their parents.",
+				"image":"burning-baby.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Burning Torches",
+				"classname":"TorchesBurnInFurnaces",
+				"description":"Torches can be burnt in furnaces for 2 items each.",
+				"image":"burning-torches.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Chicken Shearing",
+				"classname":"ShearableChickens",
+				"description":"Chickens can be sheared. Doing so has them take 1 damage and drop 1 feather. You can do this as many times as you want while the chicken doesn't die. Chickens that have been sheared will not drop feathers upon death.",
+				"image":"chicken-shear.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Chicken Shedding",
+				"classname":"ChickensShedFeathers",
+				"description":"Chickens shed feathers periodically, similarly to how they lay eggs.",
+				"image":"chicken-shed.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Clay Conversion",
+				"classname":"ConvertClay",
+				"description":"Clay blocks can be converted into the Clay item via crafting.",
+				"image":"clay-conversion.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Double Door Opening",
+				"classname":"DoubleDoors",
+				"description":"Double doors open together when right clicked.",
+				"image":"double-doors.jpg",
+				"introduced":10,
+				"overlap": ["MalisisDoors", "CharsetTweaks"]
+			},
+			{
+				"name":"Effective Dragon's Breath",
+				"classname":"DragonsBreathBottleless",
+				"description":"Dragon's Breath will not leave behind a bottle when brewed with, so it doesn't mess up all brewing automation systems.",
+				"image":"breath-bottle.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Enderman Anti-Cheese",
+				"classname":"EndermenAntiCheese",
+				"description":"Going under a 2 block high area while being attacked by an enderman will have the enderman pick up and drop the blocks you are hiding under. This ability only exists in Hard difficulty.<br><br>Note: prior to 1.11, this would have endermen teleport <i>you</i> to them. An option is present to switch to the old behaviour, if you prefer.",
+				"image":"ender-cheese.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Better Stone Tool Crafting",
+				"classname":"ImprovedStoneToolCrafting",
+				"description":"Stone Tools can be crafted with all stone types, as well as flint. (Only flint is available on versions prior to 1.11)",
+				"image":"flint-tools.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Glass Shards",
+				"classname":"GlassShards",
+				"description":"Glass drops shards. Stained Glass will drop shards of the respective type. Crafting them in a 2x2 creates a Glass block back.<br><br>The shards act like Glowstone Dust, in which Fortune will let you get more, and Silk Touch will just drop the block.",
+				"image":"glass-shards.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Hoe Harvesting",
+				"classname":"HoeSickle",
+				"description":"Breaking grass or crops with a hoe will break a 3x3 of them. A Diamond Hoe will break a 5x5 instead.",
+				"image":"hoe-sickle.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Jump Boost Step Assist",
+				"classname":"JumpBoostStepAssist",
+				"description":"Having Jump Boost II on your character will allow you to go up 1 block high gaps, like Horses can.",
+				"image":"jump-boost.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Knock on Doors",
+				"classname":"KnockOnDoors",
+				"description":"Left clicking a door with an empty hand will have you \"knock\". This makes a bit of a louder sound than if you left clicked any other block, but nowhere as infuriating as opening and closing it.",
+				"image":"knock-knock.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Ladder Drop Down",
+				"classname":"DeployLaddersDown",
+				"description":"Right clicking a ladder with another ladder will place it under the one right clicked, as long as there is space for it.<br><br>This allows for ladders to be properly extended downwards without finicky shift-click managing.",
+				"image":"drop-down-ladders.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Ladder Sliding",
+				"classname":"LookDownLadders",
+				"description":"When on a ladder, if not moving or sneaking, looking down will have you go down the ladder faster.",
+				"image":"look-down-ladders.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Minecart Block Placement",
+				"classname":"MinecartInteraction",
+				"description":"Right clicking a normal minecart with a block that can go in it (Chest, Hopper, etc) will turn the normal cart into that type of cart.",
+				"image":"cart-interactions.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Proper Stair Math",
+				"classname":"StairsMakeMore",
+				"description":"Stairs make 8 rather than 4. Why did they even make 4 in the first place? How does that even work?<br><br>Furthermore, stairs can be converted back to their respective blocks. These recipes are generated dynamically for every stair type in the game.",
+				"image":"more-stairs.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Quick Armor Swapping",
+				"classname":"QuickArmorSwapping",
+				"description":"Right clicking an armor stand while sneaking will swap all armor and your off hand item quickly.",
+				"image":"quick-armor-swapping.jpg",
+				"introduced":11,
+				"contributor": "gibraltarMC",
+				"overlap": ["Iberia"]
+			},
+			{
+				"name":"Safe Mounts",
+				"classname":"",
+				"description":"Mounts are immune to attacks from riders. No more shooting your own horse!",
+				"image":"safe-horses.jpg",
+				"introduced":9,
+				"added_to_vanilla":12
+			},
+			{
+				"name":"Shave Snow Layers",
+				"classname":"RemoveSnowLayers",
+				"description":"Right clicking a block of snow (full block or layered block) with a shovel will remove a layer from it.",
+				"image":"shave-snow.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Sheep Armor",
+				"classname":"SheepArmor",
+				"description":"Sheep that have wool also have a bit of armor added to them, making them take less damage.",
+				"image":"sheep-armor.jpg",
+				"introduced":9,
+				"contributor": "Darkhax"
+			},
+			{
+				"name":"Sign Editing",
+				"classname":"RightClickSignEdit",
+				"description":"Right Clicking a Sign lets you edit it.<br><br>If you feel like this is too intrusive, a config option is also provided to make it only do so with an empty hand.",
+				"image":"sign-edit.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Slabs to Blocks",
+				"classname":"SlabsToBlocks",
+				"description":"Slabs can be converted back to their respective blocks. These recipes are generated dynamically for every slab type in the game.<br><br>In the case that there's already a recipe of this sort (like Chiseled Sandstone), that recipe will be the one used for crafting.",
+				"image":"slabs-to-blocks.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Stackable Items",
+				"classname":"StackableItems",
+				"description":"A few items can now be stacked. Minecarts can be stacked up to 16, Saddles up to 8 and all Soup/Stew items up to 64.",
+				"image":"stackable-carts.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Villagers follow Emerald Blocks",
+				"classname":"VillagerPursueEmeralds",
+				"description":"Holding an Emerald Block causes nearby villagers to follow the player, much like animals do for food items.",
+				"image":"villager-emeralds.jpg",
+				"introduced":11
+			},
+			{
+				"name":"Sponges dry in the Nether",
+				"classname":"SpongeDriesInNether",
+				"description":"Title says it all. Placing a sponge in the nether will cause it to dry out without needing fuel.",
+				"image":"nether-sponge.jpg",
+				"introduced":11,
+				"contributor": "ichttt"
+			},
+			{
+				"name":"Automatic Recipe Unlock",
+				"classname":"AutomaticRecipeUnlock",
+				"description":"Every single recipe is unlocked and displayed in the recipe book as soon as you load a world.<br><br>If new recipes are added to the game via new mods added or updated, those will be unlocked when you get back in.<br><br>This feature is an exception to the general quark theme, but since you are using mods, it's fair to assume you don't need the game to spoon-feed you recipes.",
+				"image":"unlock-all-recipes.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Improved Sleeping",
+				"classname":"ImprovedSleeping",
+				"description":"Some tweaks are made to sleeping:<ul><li>If a player does not input any keystrokes or mouse clicks in interfaces for 2 minutes, they'll be marked as AFK. AFK players do not count towards the sleep vote.</li><li>When a player enters a bed, that action and the amount of players sleeping is broadcast to the server. Hovering over the count will show which players are sleeping and which aren't yet.</li><li>A percentage of players required for the day to turn over can be configured, defaulting to 100%.</li></ul>",
+				"image":"improved-sleeping.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Axe Leaf Harvesting",
+				"classname":"AxesBreakLeaves",
+				"description":"Axes will break leaves as fast as Shears, but will not drop the leaf blocks. Normal drops such as saplings or apples will still drop.",
+				"image":"axes-break-leaves.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Compasses Everywhere",
+				"classname":"CompassesWorkEverywhere",
+				"description":"Compasses will now work in the Nether and the End.<ul><li>In the Nether, a compass will point to the portal you entered from, provided you had it on you when you did.</li><li>In the End, a compass will point to the overworld portal.</li></ul>As a bonus, Compasses and Clocks will not function until crafted to prevent cheesing with the recipe book. If you prefer, this feature can be configured to only have the anti-cheese, and not the former points, or vice-versa.",
+				"image":"compasses-everywhere.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Blastproof Shulker Boxes",
+				"classname":"BlastproofShulkerBoxes",
+				"description":"Shulker Boxes are now blastproof, having the same blast resistance as Obsidian.",
+				"image":"blastproof-shulker-boxes.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Dye any Wool",
+				"classname":"DyeAnyWool",
+				"description":"Any color of Wool can be dyed into another one, instead of just White Wool. You can also dye 8 blocks of Wool at once, similarly to other dyable blocks like Terracotta.",
+				"image":"dye-any-wool.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Pat the Dogs",
+				"classname":"PatTheDogs",
+				"description":"You can pat the dogs. Sneak-click them with an empty hand to perform this glorious act.",
+				"image":"pat-the-dogs.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Right Click Harvesting",
+				"classname":"RightClickHarvest",
+				"description":"Right click crops to harvest. Works with Hoe Harvesting, if enabled.",
+				"image":"right-click-harvest.jpg",
+				"introduced":12,
+				"contributor": "WireSegal",
+				"overlap": [ "harvest" ]
+			},
+			{
+				"name":"Squid Inking",
+				"classname":"SquidsInkYou",
+				"description":"Upon being attacked, Squids will release some ink, which inflicts blindness on nearby players.",
+				"image":"squid-inking.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Springy Slime",
+				"classname":"SpringySlime",
+				"description":"Slime Blocks will now bounce entities that hit them from the side rather than just the top. Furthermore, items will also bounce on them.",
+				"image":"springy-slime.jpg",
+				"contributor": "WireSegal",
+				"introduced":12
+			},
+			{
+				"name":"Dirt to Path",
+				"classname":"DirtToPath",
+				"description":"Right clicking dirt with a shovel will turn it into a path block, as everyone in the world hates having to wait for it to grow into grass first.",
+				"image":"dirt-path.jpg",
+				"contributor": "WireSegal",
+				"introduced":12
+			}
+		]
+	},
+	"vanity":{
+		"name":"Vanity",
+		"description":"This module adds vanity features for your character.",
+		"features":[
+			{
+				"name":"Boat Sails",
+				"classname":"BoatSails",
+				"description":"Right clicking a Boat with a Banner adds it as a Sail. The sail is decorative only and is dropped when the boat is destroyed.",
+				"image":"boat-sails.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Dyable Elytra",
+				"classname":"DyableElytra",
+				"description":"The Elytra can be dyed with any of the 16 dyes. You can dye it as many times as you want.",
+				"image":"dyable-elytra.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Dyed Item Names",
+				"classname":"DyeItemNames",
+				"description":"Combining an item with a dye in an anvil has the item's tooltip name take that dye's color. This costs 3 levels.",
+				"image":"dyed-item-names.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Emotes",
+				"classname":"EmoteSystem",
+				"description":"In the corner of the Chat menu there's a button to open an emote panel with 12 different emotes your character can do. In this picture, Alex is doing the \"Wave\" emote.<br><br>Each emote is also assigned a key binding. Pressing that key will do the emote without you having to open the chat menu. By default all emote keybinds are unset and must be set manually.<br><br>A special language is provided to allow for custom emotes to be made. Here's <a href='https://www.youtube.com/watch?v=YBUXMf2juTQ'>an example</a> and <a href='https://www.youtube.com/watch?v=ourHUkan6aQ'>a tutorial</a> on how to do it.",
+				"image":"emotes.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Firework Duplication",
+				"classname":"FireworkCloning",
+				"description":"Empty Fireworks can be crafted with already made ones to duplicate them. This works like Banners, in which the origin firework will not get used up.<br><br>Both fireworks need to have the same flight duration for this to work.",
+				"image":"firework-dupe.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Stair Chairs",
+				"classname":"SitInStairs",
+				"description":"Right clicking a stair block facing up, with empty hands, will let you sit down on it.<br><br><b>#BENCHES</b>",
+				"image":"benches.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Witch Hats",
+				"classname":"WitchHat",
+				"description":"Witches have a rare chance to drop their hat on death (same as a Wither Skeleton Skull drop).<br><br>Aside from being an awesome fashion accessory, the hat provides leather level armor, high enchantability and a built in 50% resistance to potions of harming from witches.",
+				"image":"witch-hat.jpg",
+				"introduced":9
+			}
+		]
+	},
+	"world":{
+		"name":"World",
+		"description":"This module adds world generation features.",
+		"features":[
+			{
+				"name":"Basalt",
+				"classname":"Basalt",
+				"description":"Basalt spawns in the Nether in large clusters. It works like the overworld rocks (Granite, Diorite, and Andesite), and the recipes for it are similar.<br><br>Combining Basalt with Quartz makes Andesite. Combining Cobblestone with Biotite (Coal if not enabled) makes Basalt.",
+				"image":"basalt.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Big Mushrooms in Swamps",
+				"classname":"MushroomsInSwamps",
+				"description":"Big mushrooms of both types will generate in Swamps, similarly to the Console Edition.",
+				"image":"swamp-shrooms.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Blazes in the Nether",
+				"classname":"NaturalBlazesInNether",
+				"description":"Blazes spawn naturally in the Nether. You won't get a lot of them, but they're definitely there to make the nether a bit more perilous.",
+				"image":"nether-blazes.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Buried Treasure",
+				"classname":"BuriedTreasure",
+				"description":"Treasure Maps can be found on Temples and Strongholds. These are special maps with an X on them. Travel to that X to uncover some buried treasure (a chest with Dungeon loot).",
+				"image":"buried-treasure.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Crystal Caves",
+				"classname":"CrystalCaves",
+				"description":"Crystal Caves are rare underground scenery pieces. The caves will spawn with 2 (out of 8) colors of Cave Crystal block and a bunch of ores. The Cave Crystal blocks are a light source and look cool!<br><br>If the feature is enabled, they can be used to craft Colored Runes (from the misc module)",
+				"image":"crystal-caves.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Default World Options",
+				"classname":"DefaultWorldOptions",
+				"description":"All the options available for the Customized world type can be tweaked in the mod's configuration. These apply to the normal world type.<br><br>This is mostly a modpack maker feature, as all these options are already available through the Customized world type.",
+				"image":"options.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Depth Mobs",
+				"classname":"DepthMobs",
+				"description":"Ashen (left) and Dweller (right) mobs can spawn underground at low depth levels (below Y=20). These are both rare spawns compared to their normal counterparts.<br><br>The Ashen is a Skeleton variant that shoots Blindness arrows, which last for 2.5 seconds.<br><br>The Dweller is a Zombie variant that spawns invisible, but loses the invisibility after it attacks or is attacked. It also has a bit more armor.",
+				"image":"depth-mobs.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Dungeon Variety",
+				"classname":"VariedDungeons",
+				"description":"The Dungeon generator is supplemented by a random pick from Noodlor's Dank Dungeons, they still contain the same spawners and the same loot, but have new styles.<br><br>The vanilla dungeons will still spawn.",
+				"image":"dank-dungeons.jpg",
+				"album":"https://imgur.com/a/JanPA",
+				"introduced":10
+			},
+			{
+				"name":"Ender Biotite",
+				"classname":"Biotite",
+				"description":"Ender Biotite is a renewable ore that does not spawn naturally. Clusters of it will, instead, get scattered across the main End island when an Ender Dragon dies.<br><br>Similarly to Nether Quartz, Ender Biotite drops an item, which can be used for crafting or to create Decorative Biotite Blocks, black quartz style blocks.",
+				"image":"biotite.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Guardians in Oceans",
+				"classname":"OceanGuardians",
+				"description":"Guardians spawn naturally in Deep Oceans, rarely.<br><br>If this feature is enabled, the Guardian sound is changed to not ignore distance for its volume (it does so in vanilla), so it's no longer a massive pain if you live near the ocean, or an ocean monument.",
+				"image":"ocean-guardians.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Pirates",
+				"classname":"PirateShips",
+				"description":"Pirate ships will spawn in Ocean biomes. In the ships you'll find skeleton pirates, booty and hats. Yes, you can wear their hats, if you get them to drop.<br><br>Possible booty includes weapons, food, gold, TNT, Fire Charges, Pirate Hats and Sponges (rare).<br><br>Pirate mobs don't despawn.",
+				"image":"pirates.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Realistic World Type",
+				"classname":"RealisticWorldType",
+				"description":"Alongside Amplified or Large Biomes, \"Realistic\" is a new world type that creates semi-realistic terrain. Expect rolling hills and very tall mountains. The cloud height is increased to 260 in this world type.<br><br><i>If you want to use this in a server, set the world type to \"quark_realistic\".</i>",
+				"image":"realistic-world.jpg",
+				"album":"https://www.reddit.com/r/Minecraft/comments/4nfw3t/more_realistic_generation_preset_in_comment/",
+				"introduced":9
+			},
+			{
+				"name":"Stone Revamp",
+				"classname":"RevampStoneGen",
+				"description":"Diorite, Granite, and Andesite will now spawn in really large, uncommon clusters, rather than all over the place in small bits. Furthermore, four new stones are added to the mix: Marble and Limestone (pictured), as well as Jasper and Slate (in the album, the yellow button in the bottom of this card). These last four can be used for anything the first three can.<br><br>As of 1.11, the stones will generate based on biome. You can find the table for which stones generate in which biomes <a href='img/stone-table.jpg'>here</a>.",
+				"image":"stone-revamp.jpg",
+				"album":"https://imgur.com/a/irNFo",
+				"introduced":10
+			},
+			{
+				"name":"Underground Clay",
+				"classname":"ClayGeneration",
+				"description":"Clay generates in patches underground, similarly to Dirt, albeit less often.",
+				"image":"cave-clay.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Wraiths and Curses",
+				"classname":"Wraiths",
+				"description":"Wraiths are mobs that will spawn rarely in the nether, on Soul Sand. They spawn in packs and attack like a Zombie, albeit moving faster. When they strike their target, they inflict a short Slowness debuff and knock themselves back. Fighting them standing still is a bad idea. They also don't have their own sounds, instead appropriating other mobs' sounds.<br><br>Wraiths drop a Soul Bead item. Right clicking it will break it, and inflict a Curse debuff on the player for 10 minutes (by default). Mobs in a 64 block radius of a player with Curse will spawn ignoring light levels and other conditions (like slime chunk restrictions).",
+				"image":"wraiths.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Underground Biomes",
+				"classname":"UndergroundBiomes",
+				"description":"Underground biomes are uncommon spawns in mid level underground, spawning based on their respective overworld biomes. There are currently 9 underground cave styles you may find.<br><br>This feature is too large to fit in a single card, so in order to properly show them all, please check out the album, by clicking the yellow picture button in the bottom of the card.",
+				"image":"underground-biomes.jpg",
+				"album":"https://imgur.com/a/olViK",
+				"introduced":11
+			},
+			{
+				"name": "Pathfinder Maps",
+				"classname":"PathfinderMaps",
+				"description":"Cartographer Villagers will now sell Pathfinder Maps of various biome types, which point to the closest biome to the villager carrying them. Unlike other trades where every variant is present, any given Cartographer will only stock only a random assortment of these, which expands as they level up. The default table for these sales is as follows:<table><tbody><tr><th>Level</th><th>Potential Maps Carried</th></tr><tr><td>2</td><td>Ice Plains, Extreme Hills, Roofed Forest, Desert, Savanna</td></tr><tr></tr><tr><td>3</td><td>Swampland, Mega Taiga, Flower Forest</td></tr><tr><td>4</td><td>Jungle, Mesa</td></tr><tr><td>5</td><td>Mushroom Island, Ice Spikes</td></tr></tbody></table>",
+				"image":"pathfinder-maps.jpg",
+				"introduced":12
+			},
+			{
+				"name": "Nether Smokers",
+				"classname":"NetherSmoker",
+				"description":"Nether Smokers are a new block which will spawn uncommonly on the border of lava lakes in the Nether. These blocks emit a bunch of smoke, which you can use for decoration to create chimneys or smokestacks.<br><br>Nether Smokers will not emit smoke if there's a solid block directly above them. Furthermore, creating a 1x1 chimney surrounded by solid blocks, from the smoker block upward, will cause the smoke to propagate. Combine these two with a piston and you can turn the smoke off at will on your chimney.",
+				"image":"smokers.jpg",
+				"introduced":12
+			},
+			{
+				"name": "Nether Fossils",
+				"classname":"NetherFossils",
+				"description":"Fossils will randomly spawn in the nether's lava lakes.",
+				"image":"nether-fossils.jpg",
+				"introduced":12
+			},
+			{
+				"name": "Fairy Rings",
+				"classname":"FairyRings",
+				"description":"Rarely in Forests and Plains (rarer), you may find little flower circles. Should you dig in the center, you'll find some emeralds or diamonds!",
+				"image":"fairy-rings.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Frogs",
+				"classname":"Frogs",
+				"description":"Cute little guys who spawn in swamps. They eat fish and spider eyes, and their legs can be cooked, or gilded to brew Jump Boost.",
+				"image":"frogs.jpg",
+				"introduced":12,
+				"contributor":"WireSegal"
+			},
+			{
+				"name": "Speleothems",
+				"classname":"Speleothems",
+				"description":"Speleothems (commonly known as Stalactites and Stalagmites) will generate in caves and the Nether, in all stone type variants. These can be harvested only with Silk Touch (or crafted, if you want), and can grow up to 3 blocks high.<br><br>If you break the supporting blocks, the rest of the structure falls apart, which is actually really satisfying to do.",
+				"image":"speleothems.jpg",
+				"introduced":12
+			},
+			{
+				"name": "Cave Roots",
+				"classname":"CaveRoots",
+				"description":"Cave Roots will now spawn on the walls of caves. These blocks look like dried vines, but you can't climb them.<br><br>Breaking the roots has a chance to drop a Cave Root item, which you can eat, but takes longer to. There's also roots with flowers on them, which will drop Sprout items, that can be turned into Dyes. You can harvest the root blocks with Shears.<br><br>Roots will grow downwards, and potentially create more Sprouts, if left in an area with light level dark enough to spawn mobs.",
+				"image":"cave-roots.jpg",
+				"introduced":12
+			},
+			{
+				"name": "Archaeologist",
+				"classname":"Archaeologist",
+				"description":"Archaeologist Villagers will rarely install themselves in the walls of caves. You'll know you're close to one when you start hearing the classic \"Hmmmm\" sound effect.<br><br>These villagers trade in bones and other items they use in their expeditions. Additionally, you can buy their hat!<br><br>Wearing an Archaeologist Hat has a chance for any ores you mine that can be affected by fortune to drop one additional item, so put the hat on before mining those diamonds!",
+				"image":"archaeologist.jpg",
+				"introduced":12
+			},
+			{
+				"name": "Stonelings",
+				"classname":"Stonelings",
+				"description":"Stonelings are new passive mobs that spawn in the deep underground. These little guys will spawn in carrying an item, and will get startled if you get too close to them without sneaking. Once startled, they'll run away from you and eventually poof out of existence. If you manage to kill one, you'll get the item its carrying.<br><br>Additionally, Stonelings may drop a Heart of Diamond, a new item which you can use on any stone block to create your own tamed Stoneling! Tamed Stonelings can hold items you give them, eat Stone (they love it!), and follow you if you hold a Diamond.",
+				"image":"stonelings.jpg",
+				"introduced":12
+			},
+			{
+				"name": "Monster Boxes",
+				"classname":"MonsterBoxes",
+				"description":"When spelunking around caves, you may find Spawner-like Monster Boxes in your way. This block will \"ignite\" when you get close to it, and will quickly spout out a small batch of monsters before destroying itself. This adds a small and momentary challenge to break up the pace of caving.",
+				"image":"monster-box.jpg",
+				"introduced":12
+			},
+			{
+				"name": "Broken Nether Portals",
+				"classname":"BrokenNetherPortals",
+				"description":"Broken portals may spawn around the nether. These portals always spawn with enough obsidian around for you to reconstruct them. Who knows what's on the other side?",
+				"image":"broken-portals.jpg",
+				"introduced":12
+			},
+			{
+				"name": "Crabs",
+				"classname":"Crabs",
+				"description":"New animals that spawn in beaches. When you kill them they drop Crab Legs and a Crab Shell Fragment. The former can be cooked into a decent food item, and the latter can be used to brew a potion of knockback resistance.<br><br>And yes, they do the funny if you [REDACTED]",
+				"image":"crabs.jpg",
+				"introduced":12,
+				"contributor":"WireSegal"
+			},
+			{
+				"name": "Tree Variants",
+				"classname":"TreeVariants",
+				"description":"Two new types of trees will spawn in your world:<ul><li>Swamp Oak Trees replace the current trees that spawn in swamps. Their wood type is Oak, and their main purpose is to allow you to get saplings for this type of tree.<li>Blossoming Trees will spawn in a small frequency in mountain biomes. These trees have Birch wood, and always spawn looking like a big oak tree. They have pretty pink leaves you can use in your builds, and naturally, you can get saplings of them.",
+				"image":"extra-trees.jpg",
+				"introduced":12
+			},
+			{
+				"name": "Nether Obsidian Spikes",
+				"classname":"NetherObsidianSpikes",
+				"description":"Obsidian spike structures will now generate in lava lakes in the nether. These are mostly just decorative, but there's a rare chance for one to be extremely tall and spawn with a Blaze Lantern. If you mine under the lantern, there will be a Blaze spawner and some fortress loot.",
+				"image":"obsidian-spikes.jpg",
+				"introduced":12
+			},
+			{
+				"name": "Foxhounds",
+				"classname":"Foxhounds",
+				"description":"Foxhounds are new hostile mobs that spawn in the Nether. These fierce doggos will attack you and set you on fire.<br><br>If you're brave enough, drink a fire resistance potion and feed them some Coal to tame them. Tamed Foxhounds work just like regular wolves, but with a few extra tidbits:<ul><li>They'll sleep on hot blocks like magma.<li>If put on top of a furnace, they'll make the furnace faster. You can't put multiple doggos on a furnace to speed it up more, though.</ul>",
+				"image":"foxhounds.jpg",
+				"introduced":12,
+				"contributor":"WireSegal"
+			}
+		]
+	},
+	"client": {
+		"name":"Client",
+		"description":"This module adds features that alter the client, not needing Quark to be loaded on the server.",
+		"features":[ 
+			{
+				"name":"Angry Creepers",
+				"classname":"AngryCreepers",
+				"description":"Creepers turn red when they're about to explode.",
+				"image":"angry-creepers.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Auto-jump Toggle Keybind",
+				"classname":"AutoJumpHotkey",
+				"description":"Pressing the B key (rebindable) will toggle your auto-jump feature on and off. A small HUD element will show up telling you whether it's currently active or not.",
+				"image":"autojump-keybind.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Texture Changes",
+				"classname":"BetterVanillaTextures",
+				"description":"Quark generates some vanilla textures and models. These can be toggled individually, and resource packs will override them. The changes are as follows:<ul><li>1.8 Stones (smoother texture)</li><li>Bricks (some color variance)</li><li>Glass (less spots)</li><li>Pistons (model swap to look like the pocket edition ones, sticky piston sides, 1.11 only)</li><li>Observer (improved side/top textures to show the facing)</li><li>Bow (improved pull animation, with more frames)</li><li>Beetroot Seeds (no longer like they were made in mspaint)</li></ul>",
+				"image":"texture-changes.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Chest Searching",
+				"classname":"ChestSearchBar",
+				"description":"A search bar is added to the chest interface. Typing in the bar will darken out any items whose names don't include the search query.<br><br>Wrapping the search in quotes will search for an entire name. For example, searching for Stone will also highlight Stone Bricks, whereas searching for \"Stone\" will not.",
+				"image":"chest-search.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Food Tooltip",
+				"classname":"FoodTooltip",
+				"description":"Food items show how much they heal in their tooltip. Items that give negative effects (like Rotten Flesh) will also show with a rotten food bar.",
+				"image":"food-tooltip.jpg",
+				"introduced":10,
+				"overlap": ["AppleSkin"]
+			},
+			{
+				"name":"Greener Grass",
+				"classname":"GreenerGrass",
+				"description":"Grass is greener on the Quark side. Biome colors are still respected, but are greener non the less.<br><br>There's also config options to enable Alpha style grass, which gives you the Minecraft Alpha vibe, or to manually set the grass color.",
+				"image":"greener-grass.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Improved Mount HUD",
+				"classname":"ImprovedMountHUD",
+				"description":"While on a mount, your food display is still shown. Furthermore, while on a horse, the jump bar is only shown while holding down the jump key, the XP bar is shown otherwise.",
+				"image":"mount-hud.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Subtler Shields",
+				"classname":"LessIntrusiveShields",
+				"description":"Shields have been pushed back a bit, so they don't use up as much of your screen when equipped and not blocking.",
+				"image":"unintrusive-shield.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Map Tooltip",
+				"classname":"MapTooltip",
+				"description":"Hovering over a filled map in an inventory renders that map above the tooltip.",
+				"image":"map-tooltip.jpg",
+				"introduced":11
+			},
+			{
+				"name":"No Potion Shift",
+				"classname":"NoPotionShift",
+				"description":"Prevents potion effects from shifting your inventory to the side.<br><br>Does literally the same as the mod of the same name. It has the same one line of code even!",
+				"image":"no-potion-shift.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Panorama Maker",
+				"classname":"PanoramaMaker",
+				"description":"Holding Ctrl and Shift (or Cmd and Shift in a Mac) while taking a screenshot takes a \"Panorama Screenshot\". Panorama screenshots are split into 6 low resolution images and can be used for resource packs to change the title screen look.<br><br>Furthermore, when loading the game, a random panorama screenshot the player has taken will be chosen to replace the vanilla panorama in the title screen. Panorama screenshots are stored in a \"panoramas\" folder under the \"screenshots\" folder, and sorted by folders. Renaming one of the inner folders to \"main_menu\" will make that image always show up in the title screen.",
+				"image":"panorama-maker.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Random Animal Textures",
+				"classname":"RandomAnimalTextures",
+				"description":"Cows, Pigs, and Chicken will now have randomized textures from a small pool of variants. Also, baby chickens will have their own unique textures until they grow up.",
+				"image":"random-animal-textures.jpg",
+				"introduced":11
+			},
+			{
+				"name":"Better Shulker Box Tooltip",
+				"classname":"ShulkerBoxTooltip",
+				"description":"Shulker Boxes show their items while being hovered in an inventory display rather than displaying the item names on the tooltip.",
+				"image":"shulker-box-tooltip.jpg",
+				"introduced":11
+			},
+			{
+				"name":"Visual Stat Display",
+				"classname":"VisualStatDisplay",
+				"description":"Tool, Sword, and Armor stats are displayed with icons rather than the current text format. Holding shift shows the vanilla format.",
+				"image":"visual-stats.jpg",
+				"introduced":11
+			},
+			{
+				"name":"Improved Sign Interface",
+				"classname":"ImprovedSignEdit",
+				"description":"The Sign interface is replaced with a new one using standard text boxes. This lets you use everything you can do on any other text box in the game, such as copy/paste, use selections, move your cursor, etc.<br><br>Additionally, 3 new buttons are added: Clear, Shift, and Cancel.",
+				"image":"improved-sign-edit.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Usage Ticker",
+				"classname":"UsageTicker",
+				"description":"A small interface addition shows up next to the hotbar when items are used, or armor takes damage. This shows how many items or blocks you have left, or how the status of your armor is.<br><br>As this feature is hard to demonstrate in a static picture, click the picture icon in the bottom of this card to see a demo gif.",
+				"image":"usage-ticker.jpg",
+				"album":"https://gfycat.com/EnragedDependentFugu",
+				"introduced":12
+			},
+			{
+				"name":"Better Looking Fire",
+				"classname":"BetterFireEffect",
+				"description":"Mobs on fire now look slightly better, by rendering the fire in a different way and sending some fire particles flying about.",
+				"image":"better-looking-fire.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Item Despawn Flashing",
+				"classname":"ItemsFlashBeforeExpiring",
+				"description":"10 seconds before an item would despawn, it starts flashing in and out.<br><br><i>I can't really show this in a static image so just take my word for it.</i>",
+				"image":"items-flashing.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Items In Chat",
+				"classname":"RenderItemsInChat",
+				"description":"Whenever an item shows up in chat, you can see a little preview of it!",
+				"image":"items-in-chat.jpg",
+				"introduced":12,
+				"contributor": "WireSegal"
+			},
+			{
+				"name":"Enchanted Book Icons",
+				"classname":"EnchantedBooksShowItems",
+				"description":"Enchanted Books will now show in their tooltip small versions of the items that can be enchanted with the enchantments they contain.",
+				"image":"enchanted-book-icons.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Slot Transfer Highlight",
+				"classname":"ShowInvalidSlots",
+				"description":"When looking at an item in your inventory, or holding the item in your cursor, inventory slots in which the item can not go into will be highlighted red.",
+				"image":"highlight-inventory-slots.jpg",
+				"introduced":12
+			}
+		]
+	},
+	"misc":{
+		"name":"Miscellaneous",
+		"description":"This module adds miscellaneous features that didn't fit in any other modules.",
+		"features":[
+			{
+				"name":"Endermites into Shulkers",
+				"classname":"EndermitesIntoShulkers",
+				"description":"Endermites will rarely bury into Purpur Blocks, much like how Silverfish bury into stone. When they do, they fuse with the block, forming a Shulker.",
+				"image":"endermites-into-shulkers.jpg",
+				"introduced":10,
+				"overlap": ["Mite2Shulker"]
+			},
+			{
+				"name":"Snow Golem Heads",
+				"classname":"SnowGolemPlayerHeads",
+				"description":"Named Snow Golems equipped with a Pumpkin will drop a player head with the same name as theirs, if killed by a Witch.",
+				"image":"snowman-heads.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Monster Note Blocks",
+				"classname":"NoteBlocksMobSounds",
+				"description":"Note Blocks with heads attached to their side will emit the respective mob's sound instead of a note.<br><br>The mob sound's pitch is based on the note block pitch.",
+				"image":"note-blocks.jpg",
+				"introduced":9
+			},
+
+			{
+				"name":"Ancient Tomes",
+				"classname": "AncientTomes",
+				"description":"Ancient Tomes are a rare loot item from dungeons and stronghold libraries. They come only in the highest level of an enchantment and can be combined with an Enchanted Book of the same enchantment to create one that's a level higher than the max. This costs 35 levels to create the book and an extra 35 to apply it.<br><br>The tomes can not be directly applied to an item. They also never contain enchantments that have no level or \"Protection\" type enchantments.",
+				"image":"ancient-tomes.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Colored Runes",
+				"classname":"ColorRunes",
+				"description":"Colored Runes are a rare loot item from dungeons, temples and nether fortresses. They can be applied to enchanted items in an anvil, and doing so changes the color of the enchantment glint from purple to the color of the rune. These come in all 16 colors of the spectrum.",
+				"image":"colored-runes.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Slime in a Bucket",
+				"classname":"SlimeBucket",
+				"description":"Right clicking a tiny slime with a bucket puts it in there. It remains quiet, but will start jumping inside the bucket if you find yourself in a slime chunk.<br><br>The slime can also be deployed back into the world by right clicking on a block. You can also use it as a replacement for slimeballs, you monster.",
+				"image":"slime-bucket.jpg",
+				"introduced":9
+			},
+			{
+				"name":"Extra Arrows",
+				"classname":"ExtraArrows",
+				"description":"Three new arrows are added:<ul><li>Ender Arrow: Crafted with an Arrow and an Ender Pearl, works like an ender pearl, but goes farther, since it's an arrow, yay.</li><li>Explosive Arrow: Crafted with an Arrow and two pieces of Gunpowder, explodes where it hits.</li><li>Torch Arrow: Crafted with an arrow and a Torch, places a torch where it hits. If it can't, it stays there so it can be picked up.</li></ul>These can all be fired from dispensers, and will get used up even if the bow shooting them has Infinity.",
+				"image":"extra-arrows.jpg",
+				"introduced":10
+			},
+			{
+				"name":"Soul Powder",
+				"classname":"SoulPowder",
+				"description":"Soul Powder is crafted with 3 Soul Sand and a Soul Bead (from the Wraiths feature, or a Magma Cream, if it's disabled).<br><br>When right clicked it'll create a spirit, which will fly in the direction of the nearest nether fortress.",
+				"image":"soul-powder.jpg",
+				"introduced":11
+			},
+			{
+				"name":"Note Block Interface",
+				"classname":"NoteBlockInterface",
+				"description":"Note Blocks get an interface when right clicked. A piano button layout shows up where you can set the note that the block will play. If you prefer the vanilla clicks system, you can click the note block icon to mimic that behaviour, and each note button has the amount of clicks needed under the note name.<br><br>Other players will hear you using the interface, and the piano keys are all keybound, so you can use it to play songs ingame, if you want to!",
+				"image":"note-block-gui.jpg",
+				"introduced":11
+			},
+			{
+				"name":"Lock Rotation",
+				"classname":"LockDirectionHotkey",
+				"description":"Pressing the K key (L pre 1.12, rebindable) will lock a rotation, and optionally a block half, if you're looking at a block. Any further blocks placed are changed to that direction, regardless of how you were facing when placing them. This can be very useful for building with blocks that have awkward rotation methods, such as stairs or pistons.<br><br>To unlock the rotation press the key again while looking in the same direction you locked in.",
+				"image":"lock-rotation.jpg",
+				"introduced":11
+			},
+			{
+				"name":"Dragon Scales",
+				"classname":"EnderdragonScales",
+				"description":"When an Enderdragon that was spawned by the player (the natural spawned one does not count!) is killed, it will drop a Dragon Scale.<br>The scale can be combined with an Elytra to mold it, creating a new one. The old Elytra stays behind untouched.",
+				"image":"dragon-scale.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Animal Poisoning",
+				"classname":"PoisonPotatoUsage",
+				"description":"Feeding a baby animal a Poisonous Potato has a chance to poison it for a few seconds. A baby animal that has been poisoned by this method will never grow into an adult.",
+				"image":"animal-poisoning.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Place Glowstone and Gunpowder",
+				"classname":"PlaceVanillaDusts",
+				"description":"Glowstone Dust and Gunpowder can be placed just like Redstone.<br><br>Glowstone will just emit some light (same level as Torches).<br><br>Gunpowder can be ignited, either by using a Flint and Steel or a Fire Charge on it, or by having some fire show up adjacent to it. Gunpowder works as a fuse, by default spreading the flame two blocks every second. Placing Gunpowder on Netherrack makes it go twice as fast.",
+				"image":"vanilla-dusts.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Throwable Dragon Breath",
+				"classname":"ThrowableDragonBreath",
+				"description":"Bottles of Dragon Breath can now be thrown. Upon impact, they'll randomly replace some Stone blocks around the impact point with End Stone.",
+				"image":"throw-dragon-breath.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Wither Ash",
+				"classname":"BlackAsh",
+				"description":"Wither Ash is a new drop from Withers and Wither Skeletons (replacing Coal for these). Regardless of light level, monsters may not spawn on top of Wither Ash, or on top of blocks that have Wither Ash under them, as seen in the picture.",
+				"image":"wither-ash.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Extra Potions",
+				"classname":"ExtraPotions",
+				"description":"Haste and Resistance potions can now be brewed, using Prismarine Crystals and Biotite, respectively. Brewing Haste with a Fermented Spider Eye produces a Mining Fatigue potion.<br><br>Furthermore, a new potion effect is added: Danger Sight, brewed with Glowshroom (from Underground Biomes). While under the effect of Danger Sight, nearby spots that are dark enough for monsters to spawn will emit particles.<br><br>Lastly, if Biotite or Glowshrooms aren't available, they're replaced with Quartz or Clownfish, respectively.",
+				"image":"extra-potions.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Horse Whistles",
+				"classname":"HorseWhistle",
+				"description":"A silent whistle which horses can hear. They'll come right to you if you blow it! This only works on horses you personally have tamed, and only if they aren't being ridden and aren't leashed.",
+				"image":"horse-whistles.jpg",
+                "contributor": "WireSegal",
+				"introduced":12
+			},
+			{
+				"name":"Map Markers",
+				"classname":"MapMarkers",
+				"description":"Combine an Ink Sac with a Map to add a marker to where you're currently standing.<br><br>Note: At the moment, markers can't be removed, so plan wisely.",
+				"image":"map-markers.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Utility Recipes",
+				"classname":"UtilityRecipes",
+				"description":"Combined Recipes for Dispensers, Redstone Repeaters, and Minecarts (with Chest/Furnace/Hopper/TNT) are added that mix the recipes of the components, making crafting these items more convenient.",
+				"image":"utility-recipes.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Parrot Eggs",
+				"classname":"ParrotEggs",
+				"description":"Feeding a parrot Beetroot Seeds has a chance to make the parrot start making an egg. After a few minutes, the parrot will pop out a Parrot Egg, which you throw like a normal egg to get a guaranteed parrot of the egg's color.<br><br>The color of the egg that is produced depends on the color of the parrot laying it. Every parrot can lay every color, but it's much more likely you'll get an egg of the same color.<br><br>There's also a secret parrot added...",
+				"image":"parrot-eggs.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Pickarang",
+				"classname":"Pickarang",
+				"description":"A new tool for mining! The pickarang is a boomerang pickaxe - throw it, it breaks whatever it hits, and comes back to you with the drops.<br><br>The Pickarang is crafted with a Heart of Diamond (from Stonelings, in the World module, or just diamonds if it's disabled), and can be enchanted with Unbreaking, Fortune, and Silk Touch.<br><br>Check it out in action <a href='https://twitter.com/VazkiiMods/status/1132097540902535168'>here</a>.",
+				"image":"pickarang.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Reacharound Placing",
+				"classname":"ReacharoundPlacing",
+				"description":"Blocks can be placed in the bottom face of other blocks while you're standing on them, you can do this by looking at the bottom of the block from above, as seen in the image.<br><br>You'll know this option is available when a [ ] shows up around your crosshair.",
+				"image":"reacharound-placing.jpg",
+				"introduced":12
+			}
+		]
+	},
+	"oddities":{
+		"name":"Oddities",
+		"description":"Oddities is a special module, focused on features that don't quite fit the team for \"vanilla\" Quark which are designed to amplify the feel of gratification when completing a cool build.<br><br><span style='color:red'>The features in this module are NOT enabled by default. You need to install <a href='https://minecraft.curseforge.com/projects/quark-oddities'>Oddities</a> the same way you install Quark for them to be present in your game.</span>",
+		"disable_counter": true,
+		"features":[
+			{
+				"name":"Item Pipes",
+				"classname":"Pipes",
+				"description":"Item Pipes are crafted using some Iron and Glass. As you would expect, they transport items from point A to point B. To get items into a pipe simply use a Hopper, Dropper, or any other insertion means you may have handy.<br><br>The way items path around pipes is based on simple rules, the pipes can be controlled via redstone, and their output read by a dropper.<br><br>There isn't enough space in this card to describe the entire pipe featureset, so click the yellow album icon in the bottom-right corner of the card for a more in-depth explanation.",
+				"image":"pipes.jpg",
+				"album": "https://twitter.com/Vazkii/status/1029551677781815296",
+				"introduced":12
+			},
+			{
+				"name":"Backpack",
+				"classname":"Backpacks",
+				"description":"Locate yourself a Leatherworker villager, and they might fashion a Backpack for you in exchange for some Leather and Emeralds.<br><br>This Backpack can be worn in the Chest slot, and it'll give you a bunch of extra slots in your inventory to store all your stuff. Beware however, if your backpack has items in it, you can't unequip it. You may also dye the backpack just like any other leather armor.",
+				"image":"backpack.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Totem of Holding",
+				"classname":"TotemOfHolding",
+				"description":"When a player dies, a Totem of Holding will spawn at the dead player's position. This totem will float around in the air, holding the player's items. Any player can retrieve the items the totem is holding by punching it a few times. (The totem won't spawn for PVP kills)<br><br>Do note that if the player who spawned the totem dies again, the totem will break and drop all of the items on the ground, like a normal death.<br><br>A player's totem can be located by crafting a Soul Compass, which is done using a Compass and a Soul Bead (from the Wraiths feature in the World Module). Should Soul Beads not be available, Soul Sand is used instead.",
+				"image":"totem-of-holding.jpg",
+				"introduced":12
+			},
+			{
+				"name":"Matrix Enchanting",
+				"classname":"MatrixEnchanting",
+				"description":"A complete overhaul of the Enchanting System. Pieces can be generated using lapis and XP. The pieces then have to be laid on the grid to enchant the item. Pieces can be rotated and upgraded into higher levels.<br><br>Furthermore, the enchanting table can now hold Lapis and the item you put in. The item will even render in the world! You can also use candles (from the Decoration module) to influence which enchantments you get.<br><br>Click the album button in the bottom of this card for a preview of how this system works.",
+				"image":"matrix-enchanting.jpg",
+				"album": "https://twitter.com/Vazkii/status/1083572148793499649",
+				"introduced":12
+			},
+			{
+				"name":"Tiny Potato",
+				"classname":"TinyPotato",
+				"description":"Your best friend in the whole wide world, who believes in you unconditionally. It knows you can do the thing.<br>Craft it with a potato as well as a diamond or emerald.<br>Give it pats by right clicking.<br>Give it items to hold.<br><br>Love it forever.",
+				"contributor": "WireSegal",
+				"image":"tiny-potato.jpg",
+				"introduced":12
+			}
+		]
+	}		
+}

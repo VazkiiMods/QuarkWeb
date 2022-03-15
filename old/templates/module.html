@@ -1,0 +1,59 @@
+<div class="page-content">
+	<div class="module-info">
+		<div class="module-title">{{{name}}}</div>
+		<div class="module-desc">{{{description}}}</div>
+	</div>
+
+	{{#features}}
+		<div id="{{anchor}}-fake" class="card feature-card {{#is_in_vanilla}}in-vanilla{{/is_in_vanilla}} {{#disable_counter}}disable-counter{{/disable_counter}}">
+			<img class="feature-image lazyload-image" data-original="img/modules/{{module_key}}/{{image}}"></img> 
+			<div class="feature-info">
+				<div class="feature-title">{{name}}</div>
+				<div class="feature-desc">
+						{{#was_contributed}}
+							<div class="contributor-info">
+								<i class="material-icons">favorite</i> This feature was kindly contributed to Quark by <b>{{contributor}}</b>.
+							</div>
+						{{/was_contributed}}
+
+						{{#is_in_vanilla}}
+							<div class="vanilla-info">
+								<i class="material-icons">star</i> This feature was added to vanilla, and removed from Quark, in <b>{{implement_version}}</b>.
+							</div>
+						{{/is_in_vanilla}}
+
+						{{{description}}}
+				</div>
+
+				<div class="feature-versions">
+					{{#versions}}
+						<div class="version-display {{^enabled}}version-display-off{{/enabled}}">
+							{{name}}
+						</div>
+					{{/versions}}
+
+					{{#overlap}}
+						<div class="version-display version-display-off version-display-overlap" title="This feature disables itself if the {{.}} mod is loaded to prevent content overlap.">
+							{{.}} <span class="material-icons">info</span>
+						</div>
+					{{/overlap}}
+				</div>
+			</div>
+
+			<div class="hyperlink-button-container {{#has_album}}with-album{{/has_album}}">
+				{{#has_album}}
+					<a href="{{album}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored album-button">
+						<i class="material-icons">photo_library</i>
+					</button></a>
+				{{/has_album}}
+
+				{{^is_in_vanilla}}
+				<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored feature-button feature-button-enabled" data-classname="{{classname}}">
+					<i class="material-icons">done</i>
+				</button>
+				{{/is_in_vanilla}}
+			</div>
+		</div>
+	{{/features}}
+
+</div>
