@@ -1,7 +1,5 @@
 <?php
-	$cache_enabled = true;
-	$cache_file = 'cached.php';
-	$cache_expiry_time = 86400; // 24h
+	require 'config.php';
 
 	if(!$cache_enabled) {
 		include 'include/main.php';
