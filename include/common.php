@@ -1,6 +1,5 @@
 <?php
-	$feature_data = load_json('features.json');
-
+	$feature_data = load_json($repo_url . 'features.json');
 	$elm_stack = [];
 
 	function load_json($file) {
@@ -9,7 +8,8 @@
 	}
 
 	function img($src, $class="") {
-		push('img', $class, array('src' => 'img/loading.jpg', 'data-lazy-src' => $src));
+		global $repo_url;
+		push('img', $class, array('src' => 'img/loading.jpg', 'data-lazy-src' => $repo_url . $src));
 		pop();
 	}
 

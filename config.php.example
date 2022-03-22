@@ -1,5 +1,6 @@
 <?php
-	$cache_enabled = true;
+	$repo_url = '';
+	$cache_enabled = false;
 	$cache_file = 'STATIC_CACHE';
 	$cache_expiry_time = 86400; // 24h
 ?>
