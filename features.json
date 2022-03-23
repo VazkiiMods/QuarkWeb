@@ -108,7 +108,7 @@
 			"image": "redstone-randomizer.jpg",
 			"added": "1.18",
 			"desc": [
-				"The Randomizer is a new redstone compontent and is crafted the same way as a comparator, but with Prismarine Crystals. When given a redstone signal from the back, it'll randomly enable either the left or right output."
+				"The Randomizer is a new redstone component and is crafted the same way as a comparator, but with Prismarine Crystals. When given a redstone signal from the back, it'll randomly enable either the left or right output."
 			]
 		},
 		{
@@ -622,7 +622,7 @@
 			"added": "1.18",
 			"desc": [
 				"Furnaces crafted from Deepslate or Blackstone have new textures. Additionally, Blackstone Furnaces can emit soul fire particles if placed over a black that can light up with soul fire.",
-				"Otherwise, they both behave the same as normal Furances."
+				"Otherwise, they both behave the same as normal Furnaces."
 			]
 		}
 	],
@@ -752,8 +752,8 @@
 			]
 		},
 		{
-			"name": "Easy Transfering",
-			"image": "easy-transfering.jpg",
+			"name": "Easy Transferring",
+			"image": "easy-transferring.jpg",
 			"added": "1.14",
 			"desc": [
 				"Two new buttons are added to chests: Insert, and Extract.",
@@ -845,10 +845,14 @@
 			"image": "stonelings.jpg",
 			"added": "1.14",
             "desc": [
-                "Stonelings are new passive mobs that spawn in the deep underground and in complete darkness. These little stone fairies will spawn in carrying an item, and will get startled if you get too close to them without sneaking. Once startled, they'll run away from you and eventually poof out of existence. If you manage to kill one, you'll get the item its carrying.",
-                "Additionally, Stonelings drop a Heart of Diamond, a new item which you can use on any stone block to create your own tamed Stoneling! Tamed Stonelings can hold items you give them, eat Stone (they love it!), and follow you if you hold a Diamond.",
-                "Note: Prior to 1.18, Stonelings did not always drop a Heart of Diamond and did not require complete darkness to spawn."
-            ]
+                "Stonelings are new passive mobs that spawn in the deep underground and in complete darkness. These little stone fairies will spawn in carrying an item, and will get startled if you get too close to them without sneaking and holding a Glow Shroom to tempt them.",
+				"If startled, they'll run away from you and eventually poof out of existence. If you manage to kill one, you'll get the item its carrying as well as a Heart of Diamond."
+			],
+			"expand": [
+				"A Heart of Diamond, when used on any stone block will let you create your own tamed Stoneling! Tamed Stonelings can hold items you give them, eat Stone (they love it!), and follow you if you hold a Glow Shroom.",
+				"Before 1.18: Stonelings could spawn outside of complete darkness and were not guaranteed to drop a Heart of Diamond.",
+				"Before 1.18.1: Stonelings were temped using diamonds instead of Glow Shrooms. This is still the case if the Glimmering Weald is disabled."
+			]
 		},
 		{
 			"name": "Crabs",
@@ -1739,19 +1743,29 @@
 			"added": "1.16.3",
 			"desc": [
 				"Spiral Spires are new uncommon setpieces that spawn in the outer end. Atop these large obsidian spires, you'll find new Myalite Crystal blocks arranged in a spiral.",
-				"Myalite Cystals can be used as a decoration, or to create Myalite Viaducts - a way to allow ender pearls to be used to phase through solid blocks. Click on More Info to see how they work.",
+				"Myalite Crystals can be used as a decoration, or to create Myalite Viaducts - a way to allow ender pearls to be used to phase through solid blocks. Click on More Info to see how they work.",
 				"Lastly, if the Corundum feature is enabled, placing Myalite Crystals below any Corundum block that can grow, has the Myalite Crystal grow instead."
 			],
 			"expand": [
 				"-",
 				"#Myalite Viaducts",
-				"Myalite Viaducts redirect ender teleportations (caused by ender pearls or endermen teleporting), if an ender teleportation would result in the target being placed on an edge of a Myalite Viaduct, said entity would instead end up at the other edge.",
+				"Myalite Viaducts redirect ender teleportation (caused by ender pearls or endermen teleporting), if an ender teleportation would result in the target being placed on an edge of a Myalite Viaduct, said entity would instead end up at the other edge.",
 				"!img/features/world/spiral-spires/myalite-viaducts.jpg",
 				"Viaducts have some rules applied to determine where a teleport would end:",
 				"*Viaducts longer than 24 blocks, or that would cause a loop are illegal, and will just have the teleport go through as normal.",
 				"*On a fork, the destination is chosen randomly.",
 				"*It's possible a fork can lead to an illegal viaduct on one side, and a legal one on the other side. The results are handled independently. (e.g. a fork with an illegal loop on the left and a normal end on the right has a 50% chance to teleport to the right, and a 50% to leave you at the start)",
 				"*Yes, you can move them with pistons."
+			]
+		},
+		{
+			"name": "Glimmering Weald",
+			"image": "glimmering-weald.jpg",
+			"added": "1.18.1",
+			"desc": [
+				"The Glimmering Weald is a new underground biome found beneath Y=0, full of unique fungal vegetation.",
+				"The biome contains a new form of mushroom, Glowing Mushrooms which can be grown on deepslate.",
+				"There is also a larger concentration of lapis ore, and more common spawning of Stonelings and Glow Squid."
 			]
 		}
 	],
