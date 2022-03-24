@@ -1765,7 +1765,8 @@
 			"desc": [
 				"The Glimmering Weald is a new underground biome found beneath Y=0, full of unique fungal vegetation.",
 				"The biome contains a new form of mushroom, Glowing Mushrooms which can be grown on deepslate.",
-				"There is also a larger concentration of lapis ore, and more common spawning of Stonelings and Glow Squid."
+				"There is also a larger concentration of lapis ore, and more common spawning of Stonelings and Glow Squid.",
+				"Note: To find it with /locatebiome you must be under Y=0 or it will not be found."
 			]
 		}
 	],
