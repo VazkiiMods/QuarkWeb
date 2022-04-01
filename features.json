@@ -1905,7 +1905,7 @@
 				"#Tips",
 				"*Incompatible pieces can never be generated - if you see a Fortune piece, you'll never see Silk Touch in that session.",
 				"*The item you're enchanting will retain its pending enchantments if you take it out.",
-				"*Candles can be used those to manipulate what type of enchantments you'd like to get. Placing down up to 4 candles of a single type will enhance the chance you'll find a given enchantment.",
+				"*Candles can be used those to manipulate what type of enchantments you'd like to get. Placing down up to 4 candles of a single type will enhance the chance you'll find a given enchantment. Candles must be lit to manipulate enchantment types.",
 				"-",
 				"#Candle Influences",
 				"*White: Unbreaking",
