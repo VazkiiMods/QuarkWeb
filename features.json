@@ -621,7 +621,7 @@
 			"image": "variant-furnaces.jpg",
 			"added": "1.18",
 			"desc": [
-				"Furnaces crafted from Deepslate or Blackstone have new textures. Additionally, Blackstone Furnaces can emit soul fire particles if placed over a black that can light up with soul fire.",
+				"Furnaces crafted from Deepslate or Blackstone have new textures. Additionally, Blackstone Furnaces can emit soul fire particles if placed over a block that can light up with soul fire.",
 				"Otherwise, they both behave the same as normal Furnaces."
 			]
 		}
