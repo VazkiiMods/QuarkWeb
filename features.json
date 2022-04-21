@@ -335,7 +335,7 @@
 			"added": "1.14",
 			"removed": "1.18",
 			"desc": [
-				"Oriental style decoration can now be made with Paper and Bamboo.",
+				"Japanese style decoration can now be made with Paper and Bamboo.",
 				"*Paper Walls (\"Shoji\") come in three variants: Normal, Big, and Decorated. The latter can be crafted by adding a Sapling.",
 				"*Paper Lanterns (\"Chochin\") come in Normal and Decorated variants, the latter similarly crafted with a Sapling. Try hanging or propping them with fences!"
 			]
@@ -350,11 +350,11 @@
 			]
 		},
 		{
-			"name": "Oriental Palette",
+			"name": "Japanese Palette",
 			"image": "oriental-palette.jpg",
 			"added": "1.18",
 			"desc": [
-				"Oriental style decoration can now be made with Paper, Bamboo, and Sticks.",
+				"Japanese style decoration can now be made with Paper, Bamboo, and Sticks.",
 				"*Paper Walls (\"Shoji\") come in three variants: Normal, Big, and Decorated. The latter can be crafted by adding a Sapling.",
 				"*Paper Lanterns (\"Chochin\") come in Normal and Decorated variants, the latter similarly crafted with a Sapling. Try hanging or propping them with fences!",
 				"*Bamboo Mats (\"Tatami\") are a carpet sized block, crafted using Bamboo and Sticks. They can also be crafted into a full block sized version."
