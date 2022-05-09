@@ -882,7 +882,7 @@
 			"image": "toretoises.jpg",
 			"added": "1.15",
             "desc": [
-                "Toretoises are new neutral mobs that will spawn deep underground and in complete darkness. When a Toretoise spawns, it'll come with a random type of ore (Coal, Iron, Lapis, or Redstone). You may attack the Toretoise with a pickaxe to have it drop that ore!",
+                "Toretoises are new neutral mobs that will spawn deep underground and in complete darkness. When a Toretoise spawns, it'll come with a random type of ore (Coal, Copper, Iron, Lapis, or Redstone). You may attack the Toretoise with a pickaxe to have it drop that ore!",
            		"If you hit a Toretoise without a pickaxe, or when it has no ore, it'll emit a shockwave attack. This will damage any non-Toretoise entities around, and redirect their aggro to you.",
            		"With enough care, it's possible to carry a Toretoise home and feed it so it grows more ores, feel free to click More Info for some tips on how to do it."
             ],
@@ -1098,7 +1098,7 @@
 				"Axes will break leaves as fast as Shears, but will not drop the leaf blocks. Normal drops such as saplings or apples will still drop."
 			]
 		},
-				{
+		{
 			"name": "Better Elytra Rockets",
 			"image": "better-elytra-rockets.jpg",
 			"added": "1.16.4",
@@ -1363,6 +1363,15 @@
             "desc": [
                 "Items can now be right clicked onto a Lava Bucket to destroy them forever. Shulker Boxes and items that are immune to fire (eg. Netherite) can not be destroyed this way."
             ]
+		},
+		{
+			"name": "Vexes Die With Their Masters",
+			"image": "vex-die-with-their-masters.jpg",
+			"added": "1.18.2",
+			"desc": [
+				"Vex will now die when the Evoker who spawned them is killed.",
+				"Good Riddance!"
+			]
 		}
 	],
 	"world": [
@@ -1628,7 +1637,7 @@
 		},
 		{
 			"name": "Blossom Trees",
-			"image": "blossom-trees.jpg",
+			"image": "blossom-trees/blossom-trees.jpg",
 			"added": "1.14",
 			"removed": "1.18",
 			"desc": [
@@ -1644,8 +1653,9 @@
 		},
 		{
 			"name": "Blossom Oaks",
-			"image": "blossom-oaks.jpg",
+			"image": "blossom-trees/blossom-oaks.jpg",
 			"added": "1.18",
+			"removed": "1.18.2",
 			"desc": [
 				"Blossom Oaks are new uncommon specimen in esoteric colors that dot your landscape. Each color of tree will spawn in different types of biomes:",
 				"*Frosty Blossom Oaks (blue) spawn in cold biomes.",
@@ -1655,6 +1665,27 @@
 				"*Sunny Blossom Oaks (yellow) spawn in plains.",
 				"*Fiery Blossom Oaks (red) spawn in badlands.",
 				"The trees come with pretty leaves, as well as new saplings you can put in flower pots for decor."
+			]
+		},
+		{
+			"name": "Blossom Wood",
+			"image": "blossom-trees/blossom-wood.jpg",
+			"added": "1.18.2",
+			"desc": [
+				"Blossom Trees are new uncommon specimen in esoteric colors that dot your landscape. Each color of tree will spawn in different types of biomes:",
+				"The trees come with their own wood type and pretty leaves, as well as new saplings you can put in flower pots for decor.",
+				"Blossom wood can be used for all normal wood recipes, with a strong red tint."
+			],
+			"expand": [
+				" ",
+				"#Locations",
+				"*Frosty Blossom Trees (blue) spawn in cold biomes.",
+				"*Serene Blossom Trees (lavender) spawn in swamps.",
+				"*Warm Blossom Trees (orange) spawn in savannas.",
+				"*Sweet Blossom Trees (pink) spawn in mountains.",
+				"*Sunny Blossom Trees (yellow) spawn in plains.",
+				"*Fiery Blossom Trees (red) spawn in badlands.",
+				"!img/features/world/blossom-trees/blossom-trees-2.jpg"
 			]
 		},
 		{
@@ -1767,6 +1798,16 @@
 				"The biome contains a new form of mushroom, Glowing Mushrooms which can be grown on deepslate.",
 				"There is also a larger concentration of lapis ore, and more common spawning of Stonelings and Glow Squid.",
 				"Note: To find it with /locatebiome you must be under Y=0 or it will not be found."
+			]
+		},
+		{
+			"name": "Azalea Wood",
+			"image": "azalea-wood.jpg",
+			"added": "1.18.1",
+			"desc": [
+				"Azalea trees will grow with a pretty new wood type.",
+				"Azalea wood can be used for all normal wood recipes, including new green variants for most wooden blocks.",
+				"Can be used with moss and midori blocks, sporting a comfortable green colour scheme."
 			]
 		}
 	],
