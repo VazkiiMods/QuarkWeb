@@ -139,6 +139,13 @@
 						<div class="team-name"><a href="https://twitter.com/alwinfy">Alwinfy</a></div>
 						<div class="team-role">Issue Management</div>
 					</div>
+					<div class="team-separator"></div>
+
+					<div class="team-member">
+						<div class="team-avatar"><img src="img/avatars/amymialee_full.png"></img></div>
+						<div class="team-name"><a href="https://twitter.com/amy_mialee">AmyMialee</a></div>
+						<div class="team-role">Documenter</div>
+					</div>
 				</div>
 			</div>
 			<hr>
