@@ -513,7 +513,6 @@
 			"name": "Vertical Planks",
 			"image": "vertical-planks.jpg",
 			"added": "1.14",
-			"removed": "1.18",
 			"desc": [
 				"Putting 3 wooden planks in a vertical line creates 3 Vertical Wooden Planks. Doing the same reverts it.",
 				"If Stained Wooden Planks is enabled, vertical versions of those are also added."
@@ -740,6 +739,24 @@
                 "*Upon crafting the current item, the previous item in the queue is loaded again",
                 "<a href='https://streamable.com/2k512k'>Here</a> is a demo video to better demonstrate this feature."
             ]
+		},
+		{
+			"name": "Soul Candles",
+			"image": "soul-candles.jpg",
+			"added": "1.18.2",
+            "desc": [
+                "Candles placed and lit on soul sand or soul soil will now emit soul flames, just like how fire does."
+            ]
+		},
+		{
+			"name": "Uses for Curses",
+			"image": "uses-for-curses.jpg",
+			"added": "1.18.2",
+            "desc": [
+                "Curses now have added effects giving them some usefulness.",
+                "Pumpkins with Curse of Vanishing will not show the pumpkin overlay when worn.",
+				"Player Heads with Curse of Binding will show the player model of it's owner on an armor stand."
+            ]
 		}
 	],
 	"management": [
@@ -747,6 +764,7 @@
 			"name": "Chests In Boats",
 			"image": "chests-in-boats.jpg",
 			"added": "1.14",
+			"removed": "1.19",
 			"desc": [
 				"Right clicking a Chest onto a Boat adds the chest in as a passenger. To access the chest, simply enter the boat and open your inventory, just like you would for a horse. To remove the chest (and the items inside), break the boat."
 			]
@@ -824,6 +842,14 @@
 			"removed": "1.18",
             "desc": [
                 "Right clicking an armor item in an inventory will swap it for whatever armor you're currently holding."
+            ]
+		},
+		{
+			"name": "Quick Armor Swapping",
+			"image": "armor-swapping.jpg",
+			"added": "1.18.2",
+            "desc": [
+                "Shift-right clicking an armor stand will swap it's armor set for whatever armor you're currently wearing."
             ]
 		}
 	],
@@ -1067,6 +1093,15 @@
             "desc": [
 				"The Cluster variants of Corundum (from the World module) can be used to redirect beacon beams and change their color. If Corundum is disabled, Amethyst can be used instead.",
 				"Note that for a beacon to function, the final segment must always face upwards towards the sky."
+			]
+		},
+		{
+			"name": "Parrot Eggs",
+			"image": "parrot-eggs.jpg",
+			"added": "1.18.2",
+            "desc": [
+				"Parrots can now lay eggs, which when thrown will hatch a parrot of the egg's color.",
+				"Parrots start to lay an egg rarely when fed, and it will take 10 minutes for them to lay the egg."
 			]
 		}
 	],
@@ -1371,6 +1406,25 @@
 			"desc": [
 				"Vex will now die when the Evoker who spawned them is killed.",
 				"Good Riddance!"
+			]
+		},
+		{
+			"name": "Pig Litters",
+			"image": "pig-litters.jpg",
+			"added": "1.18.2",
+			"desc": [
+				"Pigs will now have litters of children, instead of just one, when bred.",
+				"Litter sizes can range from 2-3, but using golden carrots instead of normal carrots this allows up to 5 pigs in one litter!"
+			]
+		},
+		{
+			"name": "Grab Chickens",
+			"image": "grab-chickens.jpg",
+			"added": "1.18.2",
+			"desc": [
+				"Chickens can now be picked up by right clicking on them.",
+				"This allows you to carry the chicken on your head, which can be taken off by right clicking anywhere.",
+				"This gives you the ability to fall slower by gliding using the chicken."
 			]
 		}
 	],
@@ -1809,6 +1863,15 @@
 				"Azalea wood can be used for all normal wood recipes, including new green variants for most wooden blocks.",
 				"Can be used with moss and midori blocks, sporting a comfortable green colour scheme."
 			]
+		},
+		{
+			"name": "No More Lava Pockets",
+			"image": "no-lava-pockets.jpg",
+			"added": "1.18.2",
+			"desc": [
+				"No lava pockets will spawn in the nether.",
+				"This only applies to the hidden lava pockets encased in netherrack."
+			]
 		}
 	],
 	"oddities": [
@@ -1974,6 +2037,16 @@
 			"desc": [
 				"The Crate is an alternative storage block that can hold up to 640 items, regardless of stack size. A full stack of an item will take up 64, but 64 different items will also take up the same amount.",
 				"This makes the crate not very good for storing bulk items, but excellent for storing a high variety of items in one spot, or for collecting unstackables."
+			]
+		},
+		{
+			"name": "Tiny Potato",
+			"image": "tiny-potato.jpg",
+			"added": "1.18.2",
+			"desc": [
+				"It's a tiny potato! It believes in you!.",
+				"The Tiny Potato is lively, but patting it with a right-click will make it even more so!",
+				"A Potato can also be named in an anvil, or given items (with right-click) to hold, one item per side of the Potato. (Items placed on the bottom will show up on the lower front.)"
 			]
 		}
 	],
