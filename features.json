@@ -896,6 +896,7 @@
 			"name": "Frogs",
 			"image": "frogs.jpg",
 			"added": "1.14",
+			"removed": "1.19",
 			"desc": [
 				"These wednesday loving critters will spawn in swamps, they jump and croak around, and look very derpy. If you kill one, you'll get some Frog Legs.",
 				"*Frog Legs can be cooked and eaten, or made golden to brew into a Potion of Leaping.",
@@ -1772,6 +1773,7 @@
 			"name": "Mega Dungeons",
 			"image": "mega-dungeons.jpg",
 			"added": "1.14",
+			"removed": "1.19",
 			"desc": [
 				"Mega dungeons are new massive, rare, dungeons you can find underground. These come with a large variety of different rooms and mini challenges, as well as a shower of loot and monsters to fight.",
 				"By default, these will spawn roughly half as often as Pillager Outposts.",
@@ -1984,7 +1986,7 @@
 			"desc": [
 				"When a player dies, a Totem of Holding will spawn at the dead player's position. This totem will float around in the air, holding the player's items. Any player can retrieve the items the totem is holding by punching it a few times. (The totem won't spawn for PVP kills)",
 				"Do note that if the player who spawned the totem dies again, the totem will break and drop all of the items on the ground, like a normal death. The totem isn't an item - it just shows up for you.",
-				"A player's totem can be located by crafting a Soul Compass, which is done using a Compass and a Soul Bead (from Wraiths, in the Mobs category; replace with an Ender Pearl if Wraiths are disabled)."
+				"1.18 or Prior: A player's totem can be located by crafting a Soul Compass, which is done using a Compass and a Soul Bead (from Wraiths, in the Mobs category; replace with an Ender Pearl if Wraiths are disabled)."
 			]
 		},
 		{
