@@ -623,6 +623,15 @@
 				"Furnaces crafted from Deepslate or Blackstone have new textures. Additionally, Blackstone Furnaces can emit soul fire particles if placed over a block that can light up with soul fire.",
 				"Otherwise, they both behave the same as normal Furnaces."
 			]
+		},
+		{
+			"name": "Raw Ore Bricks",
+			"image": "raw-ore-bricks.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Raw Ore blocks can be crafted into raw ore bricks.",
+				"These bricks can still be crafted back into 9 raw ore."
+			]
 		}
 	],
 	"client": [
@@ -746,6 +755,14 @@
 			"added": "1.18.2",
             "desc": [
                 "Candles placed and lit on soul sand or soul soil will now emit soul flames, just like how fire does."
+            ]
+		},
+		{
+			"name": "Smelting Time Tooltips",
+			"image": "smelting-time-tooltips.jpg",
+			"added": "1.19.2",
+            "desc": [
+                "Fuel Sources will show the number of items they can smelt in their tooltip when viewed within a furnace inventory."
             ]
 		},
 		{
@@ -990,6 +1007,16 @@
 			]
 		},
 		{
+			"name": "Endermosh Music Disc",
+			"image": "endermosh.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Endermosh is a new music disc that can be found in End Cities.",
+				"The song was created by Kain Vinosec and can be found on YouTube <a href='https://youtu.be/tnaypKb0SGE'>here</a>."
+			],
+			"download": "https://youtu.be/tnaypKb0SGE"
+		},
+		{
 			"name": "Pathfinder Maps",
 			"image": "pathfinder-maps.jpg",
 			"added": "1.14",
@@ -1144,6 +1171,14 @@
 			]
 		},
 		{
+			"name": "Charcoal to Black Dye",
+			"image": "charcoal-black-dye.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Charcoal can be used as an alternative way to craft black dye."
+			]
+		},
+		{
 			"name": "Dirt To Path",
 			"image": "dirt-to-path.jpg",
 			"added": "1.14",
@@ -1269,6 +1304,14 @@
 				"Reacharound Placing allows you to place blocks behind the block you're looking at. This can be done either vertically or horizontally, provided you wouldn't be placing a block given normal rules.",
 				"*To do it vertically, sneak on the edge of a block and look at the area directly below it This is what the image is demonstrating. A [  ] will appear around your crosshair if you do it properly.",
 				"*To do it horizontally (1.15+ only), look in front of a block, where the next block would be. A <  > will appear around your crosshair for this one."
+			]
+		},
+		{
+			"name": "Safe Rabbits",
+			"image": "safe-rabbits.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Fall damage for rabbits is now calculated 5 blocks lower than other mobs, allowing them to drop from higher jumps without taking damage."
 			]
 		},
 		{
@@ -1426,6 +1469,31 @@
 				"Chickens can now be picked up by right clicking on them.",
 				"This allows you to carry the chicken on your head, which can be taken off by right clicking anywhere.",
 				"This gives you the ability to fall slower by gliding using the chicken."
+			]
+		},
+		{
+			"name": "Zombie Villagers on Normal",
+			"image": "normal-zombie-villagers.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Zombie Villagers will now be guarnteed to be spawned when a villager is killed by a zombie in normal mode.",
+				"This is the default behavior on hard mode, and usually only a chance of happening on normal."
+			]
+		},
+		{
+			"name": "Renewable Spores",
+			"image": "renewable-spores.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Spore Blossoms can be grown by using bone meal on them, wherein there will be a 20% chance to drop another Spore Blossom."
+			]
+		},
+		{
+			"name": "Quiet Minecarts",
+			"image": "quiet-minecarts.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Minecarts will produce a lot less sound when their rails are placed onto wool blocks."
 			]
 		}
 	],
