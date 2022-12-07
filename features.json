@@ -2136,24 +2136,6 @@
 			"download": "https://www.curseforge.com/minecraft/mc-mods/allurement"
 		},
 		{
-			"name": "Atmospheric",
-			"image": "atmospheric.jpg",
-			"custom_version": "Friend",
-			"desc": [
-				"Atmospheric is a mod designed to create new and fun experiences in brand new biomes, each with specialized and unique content. With new forests, deserts, and more, there are tons of new things to discover. There are plenty of new wood types and other building blocks to obtain as well."
-			],
-			"download": "https://www.curseforge.com/minecraft/mc-mods/atmospheric"
-		},
-		{
-			"name": "Autumnity",
-			"image": "autumnity.jpg",
-			"custom_version": "Friend",
-			"desc": [
-				"Autumnity adds a maple forest with many different colors of maple trees, each with falling leaves. Within this forest, snails can be found which can make snail slime. Maple trees can also produce maple sap which can be made to make maple syrup and pancakes."
-			],
-			"download": "https://www.curseforge.com/minecraft/mc-mods/autumnity"
-		},
-		{
 			"name": "Buzzier Bees",
 			"image": "buzzier-bees.jpg",
 			"custom_version": "Friend",
@@ -2170,15 +2152,6 @@
 				"Berry Good is a small mod focusing on fixing the annoying placement of Sweet Berries in addition to fleshing them out a little more."
 			],
 			"download": "https://www.curseforge.com/minecraft/mc-mods/berry-good"
-		},
-		{
-			"name": "Environmental",
-			"image": "environmental.jpg",
-			"custom_version": "Friend",
-			"desc": [
-				"Environmental overhauls and improves many vanilla biomes, and adds a few new ones too! There's also a good few \"extra\" features thrown in for good measure."
-			],
-			"download": "https://www.curseforge.com/minecraft/mc-mods/environmental"
 		},
 		{
 			"name": "Extra Boats",
@@ -2205,7 +2178,7 @@
 			"desc": [
 				"Personality adds sitting, crawling, and a few new animations, with more coming soon!"
 			],
-			"download": "https://www.curseforge.com/minecraft/mc-mods/autumnity"
+			"download": "https://www.curseforge.com/minecraft/mc-mods/personality"
 		},
 		{
 			"name": "Savage & Ravage",
@@ -2216,96 +2189,6 @@
 			],
 			"download": "https://www.curseforge.com/minecraft/mc-mods/savage-and-ravage"
 		},
-		{	
-			"name": "The Endergetic Expansion",	
-			"image": "endergetic.jpg",	
-			"custom_version": "Friend",	
-			"desc": [	
-				"The Endergetic Expansion's aim is to improve every aspect of the end. It already adds an entire biome with unique mechanics, mobs, and visuals, as well as visual improvements to the existing end well and end gateways used to teleport in vanilla. The poise forest can be located semi-rarely in the outer islands of the end (where the chorus biome can also spawn)."	
-			],	
-			"download": "https://www.curseforge.com/minecraft/mc-mods/endergetic"	
-		},
-		{
-			"name": "Upgrade Aquatic",
-			"image": "upgrade-aquatic.jpg",
-			"custom_version": "Friend",
-			"desc": [
-				"Upgrade Aquatic extends and improves on the content added by 1.13. Improving oceans and fixing the implementation of insomnia, in addition to fleshing out rivers and providing new decorative options."
-			],
-			"download": "https://www.curseforge.com/minecraft/mc-mods/upgrade-aquatic"
-		},
-		{
-			"name": "Abundance",
-			"image": "abundance.jpg",
-			"custom_version": "Friend",
-			"desc": [
-				"Abundance adds the Lavender Fields, a gorgeous new biome full of color trees, as well as Lavender! It also adds all sorts of new flowering things to existing biomes - like new flowers, flowering Redbud trees, and Saguaro Cacti."
-			],
-			"download": "https://www.curseforge.com/minecraft/mc-mods/abundance"
-		},
-		{
-			"name": "Bayou Blues",
-			"image": "bayou-blues.jpg",
-			"custom_version": "Friend",
-			"desc": [
-				"Bayou Blues adds the Bayou, a new biome inspired by the swamps of Florida! It's full of foliage such as cypress trees, beard moss, algae, lily flowers, and gooseberries."
-			],
-			"download": "https://www.curseforge.com/minecraft/mc-mods/bayou-blues"
-		},
-		{
-			"name": "Better Badlands",
-			"image": "better-badlands.jpg",
-			"custom_version": "Friend",
-			"desc": [
-				"Better Badlands improves Minecraft’s badlands biome with better generation and new blocks."
-			],
-			"download": "https://www.curseforge.com/minecraft/mc-mods/better-badlands"
-		},
-    		{
-			"name": "Enhanced Mushrooms",
-			"image": "enhanced-mushrooms.jpg",
-			"custom_version": "Friend",
-			"desc": [
-				"Enhanced Mushrooms adds new wood types for both vanilla mushroom types. It also includes a transparent, glowing wood type for glowshrooms when Quark is installed, and has a couple of new mushroom-related foods."
-			],
-			"download": "https://www.curseforge.com/minecraft/mc-mods/enhanced-mushrooms"
-		},
-		{
-			"name": "Fruitful",
-			"image": "fruitful.jpg",
-			"custom_version": "Friend",
-			"desc": [
-				"Fruitful overhauls how apples are gathered and farmed. It also adds baked apples and a new effect to encourage eating them."
-			],
-			"download": "https://www.curseforge.com/minecraft/mc-mods/fruitful"
-		},
-		{
-			"name": "Charm",
-			"image": "charm.jpg",
-			"custom_version": "Friend",
-			"desc": [
-				"Charm enhances the vanilla game experience without compromising its gameplay style, adding extra features with a similar feel to Quark."
-			],
-			"download": "https://www.curseforge.com/minecraft/mc-mods/charm-reforged"
-		},
-		{
-			"name": "Inspirations",
-			"image": "inspirations.jpg",
-			"custom_version": "Friend",
-			"desc": [
-				"Adds many small features to Minecraft in a modular way. Contains features such as functional bookshelves, carpeted stairs, enchantable shields, colored nether portals, simple item pipes, climbable ropes, and more. See the mod description for more information. "
-			],
-			"download": "https://www.curseforge.com/minecraft/mc-mods/inspirations"
-		},
-		{
-			"name": "Simply Tea!",
-			"image": "simply-tea.jpg",
-			"custom_version": "Friend",
-			"desc": [
-				"Adds tea trees to the game, the leaves of which can be crafted into drinkable tea that provides passive effects."
-			],
-			"download": "https://www.curseforge.com/minecraft/mc-mods/simply-tea"
-		},
 		{
 			"name": "V-Tweaks",
 			"image": "vtweaks.jpg",
@@ -2314,24 +2197,6 @@
 				"Adds dozens of tweaks to the game without adding any new items. V-Tweaks accomplishes this by adding a couple of enchantments and adding new interactions that the player can have. These interactions vary from entity tweaks, block tweaks, item tweaks and overall improvements."
 			],
 			"download": "https://www.curseforge.com/minecraft/mc-mods/v-tweaks"
-		},
-		{
-			"name": "Voyage",
-			"image": "voyage.jpg",
-			"custom_version": "Friend",
-			"desc": [
-				"Voyage adds a multitude of new biomes to go alongside the vanilla ones, without adding any new blocks or items. It includes lagoons, rock fields, tall mountains, and much more."
-			],
-			"download": "https://www.curseforge.com/minecraft/mc-mods/voyage"
-		},
-		{
-			"name": "YUNG's Better Caves",
-			"image": "yungs-better-caves.jpg",
-			"custom_version": "Friend",
-			"desc": [
-				"YUNG's Better Caves is a powerful and customizable Minecraft cave mod. Completely overhauls cave generation to add vast lava seas, flooded caverns, and underground lakes and rivers."
-			],
-			"download": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves"
 		},
 		{
 			"name": "YUNG's Better Mineshafts",
@@ -2360,7 +2225,7 @@
 			],
 			"download": "https://www.curseforge.com/minecraft/mc-mods/yungs-extras"
 		},
-    {
+		{
 			"name": "Supplementaries",
 			"image": "supplementaries.jpg",
 			"custom_version": "Friend",
@@ -2368,6 +2233,6 @@
 				"Adds many functional and useful blocks, decorations as well as tweaks that expand and complement well the vanilla game"
 			],
 			"download": "https://www.curseforge.com/minecraft/mc-mods/supplementaries"
-    }
+		}
 	]
 }
