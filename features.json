@@ -866,7 +866,7 @@
 			"image": "armor-swapping.jpg",
 			"added": "1.18.2",
             "desc": [
-                "Shift-right clicking an armor stand will swap it's armor set for whatever armor you're currently wearing."
+                "Shift-right clicking an armor stand will swap its armor set for whatever armor you're currently wearing."
             ]
 		}
 	],
@@ -1641,7 +1641,7 @@
 			"image": "corundum.jpg",
 			"added": "1.18",
 			"desc": [
-				"Corundum Crystals are fancy semi-transparent, light emitting blocks that spawn in clusters above Deepslate in biome that isn't an Ocean.",
+				"Corundum Crystals are fancy semi-transparent, light emitting blocks that spawn in clusters above Deepslate in any biome that isn't an Ocean.",
 				"Corundum can also be turned into pane variants, and crafted into Colored Runes (from the Tools category), if enabled.",
 				"Furthermore, if placed deep underground, they'll grow up to 4 blocks tall, and will emit some particles to let you know they're growing. This growth can be prevented by using honeycomb to wax them, with the wax being removable with an axe."
 			],
