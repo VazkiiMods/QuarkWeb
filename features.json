@@ -2144,7 +2144,7 @@
 			],
 			"download": "https://www.curseforge.com/minecraft/mc-mods/buzzier-bees"
 		},
-    	{
+		{
 			"name": "Berry Good",
 			"image": "berry-good.jpg",
 			"custom_version": "Friend",
@@ -2233,6 +2233,15 @@
 				"Adds many functional and useful blocks, decorations as well as tweaks that expand and complement well the vanilla game"
 			],
 			"download": "https://www.curseforge.com/minecraft/mc-mods/supplementaries"
+		},
+		{
+			"name": "Windswept",
+			"image": "windswept.jpg",
+			"custom_version": "Friend",
+			"desc": [
+				"Windswept is a mod that aims to build upon snowy and forested areas of the game, incentivising players to explore and build in the newly expanded biomes. Windswept adds many miscellaneous features simular to quark, it also adds quark support for all woodtypes!"
+			],
+			"download": "https://www.curseforge.com/minecraft/mc-mods/windsweptmod"
 		}
 	]
 }
