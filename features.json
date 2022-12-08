@@ -2233,6 +2233,15 @@
 				"Adds many functional and useful blocks, decorations as well as tweaks that expand and complement well the vanilla game"
 			],
 			"download": "https://www.curseforge.com/minecraft/mc-mods/supplementaries"
+		},
+		{
+			"name": "Immersive Weathering",
+			"image": "immersive_weathering.jpg",
+			"custom_version": "Friend",
+			"desc": [
+				"Adds an abundance of growth & decay focused features that strive to make the world feel more alive."
+			],
+			"download": "https://www.curseforge.com/minecraft/mc-mods/immersive-weathering-forge"
 		}
 	]
 }
