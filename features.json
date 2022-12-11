@@ -2242,6 +2242,15 @@
 				"Windswept is a mod that aims to build upon snowy and forested areas of the game, incentivising players to explore and build in the newly expanded biomes. Windswept adds many miscellaneous features simular to quark, it also adds quark support for all woodtypes!"
 			],
 			"download": "https://www.curseforge.com/minecraft/mc-mods/windsweptmod"
+		},
+		{
+			"name": "Cave Enhancements",
+			"image": "cave-enhancements.jpg",
+			"custom_version": "Friend",
+			"desc": [
+				"Cave Enhancements is a mod that expands upon the Caves and Cliffs update, by adding in new and unique cave biomes, interesting mobs to befriend and items and blocks to collect. This mod has something for everybody"
+			],
+			"download": "https://www.curseforge.com/minecraft/mc-mods/cave-enhancements"
 		}
 	]
 }
