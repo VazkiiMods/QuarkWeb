@@ -2244,6 +2244,15 @@
 			"download": "https://www.curseforge.com/minecraft/mc-mods/windsweptmod"
 		},
 		{
+			"name": "Sully's Mod",
+			"image": "sullysmod.jpg",
+			"custom_version": "Friend",
+			"desc": [
+				"Sully's Mod aims to add interesting features while still keeping a vanilla feeling. While the mod's main focus is on entities it tries to add features for every type of minecraft player, explorers, builders, redstone engineers and more."
+			],
+			"download": "https://www.curseforge.com/minecraft/mc-mods/sullys-mod"
+    },
+    {
 			"name": "Cave Enhancements",
 			"image": "cave-enhancements.jpg",
 			"custom_version": "Friend",
