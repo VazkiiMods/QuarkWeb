@@ -2251,6 +2251,15 @@
 				"Sully's Mod aims to add interesting features while still keeping a vanilla feeling. While the mod's main focus is on entities it tries to add features for every type of minecraft player, explorers, builders, redstone engineers and more."
 			],
 			"download": "https://www.curseforge.com/minecraft/mc-mods/sullys-mod"
+    },
+    {
+			"name": "Cave Enhancements",
+			"image": "cave-enhancements.jpg",
+			"custom_version": "Friend",
+			"desc": [
+				"Cave Enhancements is a mod that expands upon the Caves and Cliffs update, by adding in new and unique cave biomes, interesting mobs to befriend and items and blocks to collect. This mod has something for everybody"
+			],
+			"download": "https://www.curseforge.com/minecraft/mc-mods/cave-enhancements"
 		}
 	]
 }
