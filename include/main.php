@@ -249,7 +249,7 @@
 			<div class="section-header">Download</div>
 
 			<div class="warning">
-				The only website that hosts <i>official</i> versions of Quark is <b>CurseForge</b>. Make sure you get it from there only. Other websites such as <b>9minecraft</b> or <b>mc-mods</b> are distributing old or tampered versions that may contain bugs or malware.
+				The only websites that host <i>official</i> versions of Quark are <b>CurseForge</b> and <b>Modrinth</b>. Make sure you get it from there only. Other websites such as <b>9minecraft</b> or <b>mc-mods</b> are distributing old or tampered versions that may contain bugs or malware.
 			</div>
 
 			<div class="download-holder">
