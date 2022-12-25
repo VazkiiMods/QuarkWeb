@@ -2144,7 +2144,7 @@
 			],
 			"download": "https://www.curseforge.com/minecraft/mc-mods/buzzier-bees"
 		},
-    	{
+		{
 			"name": "Berry Good",
 			"image": "berry-good.jpg",
 			"custom_version": "Friend",
@@ -2242,6 +2242,33 @@
 				"Adds an abundance of growth & decay focused features that strive to make the world feel more alive."
 			],
 			"download": "https://www.curseforge.com/minecraft/mc-mods/immersive-weathering-forge"
+    },
+    {
+ 			"name": "Windswept",
+			"image": "windswept.jpg",
+			"custom_version": "Friend",
+			"desc": [
+				"Windswept is a mod that aims to build upon snowy and forested areas of the game, incentivising players to explore and build in the newly expanded biomes. Windswept adds many miscellaneous features simular to quark, it also adds quark support for all woodtypes!"
+			],
+			"download": "https://www.curseforge.com/minecraft/mc-mods/windsweptmod"
+		},
+		{
+			"name": "Sully's Mod",
+			"image": "sullysmod.jpg",
+			"custom_version": "Friend",
+			"desc": [
+				"Sully's Mod aims to add interesting features while still keeping a vanilla feeling. While the mod's main focus is on entities it tries to add features for every type of minecraft player, explorers, builders, redstone engineers and more."
+			],
+			"download": "https://www.curseforge.com/minecraft/mc-mods/sullys-mod"
+    },
+    {
+			"name": "Cave Enhancements",
+			"image": "cave-enhancements.jpg",
+			"custom_version": "Friend",
+			"desc": [
+				"Cave Enhancements is a mod that expands upon the Caves and Cliffs update, by adding in new and unique cave biomes, interesting mobs to befriend and items and blocks to collect. This mod has something for everybody"
+			],
+			"download": "https://www.curseforge.com/minecraft/mc-mods/cave-enhancements"
 		}
 	]
 }
