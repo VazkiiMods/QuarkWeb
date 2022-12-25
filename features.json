@@ -2235,7 +2235,16 @@
 			"download": "https://www.curseforge.com/minecraft/mc-mods/supplementaries"
 		},
 		{
-			"name": "Windswept",
+			"name": "Immersive Weathering",
+			"image": "immersive_weathering.jpg",
+			"custom_version": "Friend",
+			"desc": [
+				"Adds an abundance of growth & decay focused features that strive to make the world feel more alive."
+			],
+			"download": "https://www.curseforge.com/minecraft/mc-mods/immersive-weathering-forge"
+    },
+    {
+ 			"name": "Windswept",
 			"image": "windswept.jpg",
 			"custom_version": "Friend",
 			"desc": [
