@@ -2283,7 +2283,7 @@
 		},
 		{
 			"name": "Vertical Slabs Compat",
-			"image": "every-compat.jpg",
+			"image": "vertical-slabs-compat.jpg",
 			"custom_version": "Friend",
 			"desc": [
 				"Similar to Every Compat, this mods aims to fill in mod compatibility gaps by adding Quarks vertical slabs to all blocks that have a slab.",
