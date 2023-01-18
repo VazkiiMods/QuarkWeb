@@ -632,6 +632,23 @@
 				"Raw Ore blocks can be crafted into raw ore bricks.",
 				"These bricks can still be crafted back into 9 raw ore."
 			]
+		},
+		{
+			"name": "Bamboo Backport",
+			"image": "bamboo-backport.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Bamboo from the 1.19.3 experimental features is backported to 1.19.2.",
+				"This also includes all of the quark wood type features but not the raft."
+			]
+		},
+		{
+			"name": "Extra Mud Blocks",
+			"image": "mud-blocks.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"There are a few new mud building blocks, this includes Mud Brick Lattice, Mud Brick Pillar and Carved Mud Brick."
+			]
 		}
 	],
 	"client": [
@@ -1495,6 +1512,41 @@
 			"desc": [
 				"Minecarts will produce a lot less sound when their rails are placed onto wool blocks."
 			]
+		},
+		{
+			"name": "Coral on Cactus",
+			"image": "coral-on-cactus.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Fan Coral can be placed on top of cacti.",
+				"The moisture within the cacti will keep the coral alive."
+			]
+		},
+		{
+			"name": "Dyeable Item Frames",
+			"image": "dyeable-item-frames.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Item Frames can be dyed similar to leather armor.",
+				"This works for any combination of dyes."
+			]
+		},
+		{
+			"name": "Fortunate Gold",
+			"image": "fortunate-gold.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Golden Tools will come with a baked in fortune 2 and looting 2 effect.",
+				"This does not stack with the enchantments, but can be superseded by an enchantment more powerful than level 2" 
+			]
+		},
+		{
+			"name": "Sponges on the Water",
+			"image": "sponge-on-water.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Sponges can be placed directly onto water without needing to place them on the side of a block."
+			]
 		}
 	],
 	"world": [
@@ -1941,6 +1993,23 @@
 			"desc": [
 				"No lava pockets will spawn in the nether.",
 				"This only applies to the hidden lava pockets encased in netherrack."
+			]
+		},
+		{
+			"name": "Ancient Wood",
+			"image": "ancient-wood/ancient-wood.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Ancient Wood is a new wood type which can be obtained from Ancient Trees.",
+				"Ancient Trees do not generate naturally, instead you can find ancient saplings in ancient cities.",
+				"Ancient Trees will also drop a new food item, that being the Ancient Fruit."
+			],
+			"expand": [
+				" ",
+				"#Ancient Fruit",
+				"Ancient Fruit drops from Ancient Leaves, similar to apples.",
+				"When eaten it will grant a small amount of experience.",
+				"!img/features/world/ancient-wood/ancient-fruit.jpg"
 			]
 		}
 	],
