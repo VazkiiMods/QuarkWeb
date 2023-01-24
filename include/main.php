@@ -231,8 +231,8 @@
 					<div id="version-dropdown-holder">
 						Version: 
 						<select name="versions" id="version-dropdown">
-							<option value="1.19">Minecraft 1.19</option>
-                            <option value="1.18.2">Minecraft 1.18.2</option>
+							<option value="1.19.2">Minecraft 1.19.2</option>
+							<option value="1.18.2">Minecraft 1.18.2</option>
 							<option value="1.16.4">Minecraft 1.16.4</option>
 							<option value="1.16.1">Minecraft 1.16.1</option>
 							<option value="1.15.2">Minecraft 1.15.2</option>
