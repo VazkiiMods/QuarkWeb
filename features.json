@@ -155,6 +155,15 @@
 				"Chains can now connect blocks together when a piston moves them. As you can see in the image, the chain block itself doesn't have to be moved by the piston, and will attach indirectly to other moved blocks.",
 				"Additionally, the sticking behaviour for chains connecting to slime blocks and other sticky sources has been changed: Chains will now only connect to them if they do so visually, which allows for some extra cool trickery."
 			]
+		},
+		{
+			"name": "Jukebox Automation",
+			"image": "jukebox-automation.jpg",
+			"added": "1.16.4",
+			"desc": [
+				"Dispensers are now able to place discs into Jukeboxes.",
+				"This includes ambience discs."
+			]
 		}
 	],
 	"building": [
@@ -643,11 +652,21 @@
 			]
 		},
 		{
-			"name": "Extra Mud Blocks",
+			"name": "More Mud Blocks",
 			"image": "mud-blocks.jpg",
 			"added": "1.19.2",
 			"desc": [
 				"There are a few new mud building blocks, this includes Mud Brick Lattice, Mud Brick Pillar and Carved Mud Brick."
+			]
+		},
+		{
+			"name": "Hollow Logs",
+			"image": "hollow-logs.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Hollow Logs can be crafted with four of their respective logs.",
+				"You can sneak next to a horizontal Hollow Log to climb inside.",
+				"You can also climb the inside of a vertical Hollow Log like a ladder."
 			]
 		}
 	],
@@ -706,7 +725,9 @@
 				"#Maps",
 				"!img/features/client/improved-tooltips/map.jpg",
 				"#Enchanted Books",
-				"!img/features/client/improved-tooltips/books.jpg"
+				"!img/features/client/improved-tooltips/books.jpg",
+				"#Furnace Fuel",
+				"!img/features/client/improved-tooltips/smelting-time-tooltips.jpg"
 			]
 		},
 		{
@@ -775,14 +796,6 @@
             ]
 		},
 		{
-			"name": "Smelting Time Tooltips",
-			"image": "smelting-time-tooltips.jpg",
-			"added": "1.19.2",
-            "desc": [
-                "Fuel Sources will show the number of items they can smelt in their tooltip when viewed within a furnace inventory."
-            ]
-		},
-		{
 			"name": "Uses for Curses",
 			"image": "uses-for-curses.jpg",
 			"added": "1.18.2",
@@ -791,6 +804,31 @@
                 "Pumpkins with Curse of Vanishing will not show the pumpkin overlay when worn.",
 				"Player Heads with Curse of Binding will show the player model of it's owner on an armor stand."
             ]
+		},
+		{
+			"name": "Elytra Indicator",
+			"image": "elytra-indicator.jpg",
+			"added": "1.19.2",
+            "desc": [
+                "While wearing an Elytra, it will display on the left side of the armor bar.",
+                "It will replace an armor slot and push the rest to the right."
+            ]
+		},
+		{
+			"name": "Long Range Pick Block",
+			"image": "long-range-pick-block.jpg",
+			"added": "1.19.2",
+            "desc": [
+                "Pick Block can select blocks at any distance."
+            ]
+		},
+		{
+			"name": "Wool Shuts Up Minecarts",
+			"image": "quiet-minecarts.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Minecarts will produce a lot less sound when their rails are placed onto wool blocks."
+			]
 		}
 	],
 	"management": [
@@ -859,6 +897,10 @@
 				"*While holding an item in your cursor (that isn't a Shulker Box), you can right click on top of a non-full Shulker Box to add the item to it. Alternatively, you can also right click the shulker box on the item.",
 				"*Right clicking an armor item in an inventory will swap it for whatever armor you're currently holding.",
 				"*Items can now be right clicked onto a Lava Bucket to destroy them forever. Shulker Boxes and items that are immune to fire (eg. Netherite) can not be destroyed this way."
+			],
+			"expand": [
+				"Shulker Boxes can be opened with right click in your inventory:",
+				"!img/features/management/inventory-shulkers.png"
 			]
 		},
 		{
@@ -884,6 +926,14 @@
 			"added": "1.18.2",
             "desc": [
                 "Shift-right clicking an armor stand will swap its armor set for whatever armor you're currently wearing."
+            ]
+		},
+		{
+			"name": "Automatic Tool Restock",
+			"image": "automatic-tool-restock.jpg",
+			"added": "1.19.2",
+            "desc": [
+                "Pick Block can select blocks at any distance."
             ]
 		}
 	],
@@ -965,6 +1015,7 @@
 			"name": "Wraiths",
 			"image": "wraiths.jpg",
 			"added": "1.16.4",
+			"removed": "1.19.2",
             "desc": [
                 "Wraiths are new aggressive mobs that spawn in the Soul Sand Valley. They're the lost souls of different mobs, and as such, their sounds are low pitch versions of normal mob sounds.",
                 "They attack like a normal Zombie, inflict slowness, and jump back upon dealing damage. Upon death, they'll drop a Soul Bead.",
@@ -990,6 +1041,16 @@
                 "The Shiba is a new friendly dog that spawns in mountain biomes. They can be tamed and interacted with in the same way as a wolf but will in addition also fetch any arrows or tridents after they land and bring them back to you, as long as they are not sitting.",
                 "If you are holding a torch, they will also look for dark spots and get mad at them so you know where to light up next.",
                 "They'll also lay down if you're having them sit on a bed!"
+            ]
+        },
+		{
+			"name": "Wraiths",
+			"image": "wraiths-new.jpg",
+			"added": "1.19.2",
+            "desc": [
+                "Wraiths are new neutral mobs that spawn in the Soul Sand Valley. They're the lost souls of different mobs, and as such, their sounds are low pitch versions of normal mob sounds.",
+                "They attack like a normal Zombie, inflict slowness, and jump back upon dealing damage. Upon death, they'll drop a Soul Bead.",
+                "Right clicking the Soul Bead will release the soul trapped within, which will fly in the direction of the nearest Nether Fortress."
             ]
         }
 	],
@@ -1020,7 +1081,8 @@
 			"desc": [
 				"Ancient Tomes are a rare loot item from dungeons and stronghold libraries, being usable to upgrade enchantments.",
 				"1.16.5+: Combining an Ancient Tome in an Anvil with an item containing that enchantment will increase its level by one, up to one over the cap (e.g. Looting IV).",
-				"Pre 1.16.5: They come only in the highest level of an enchantment and can be combined with an Enchanted Book of the same enchantment to create one that's a level higher than the max. This costs 35 levels to create the book and an extra 35 to apply it."
+				"Pre 1.16.5: They come only in the highest level of an enchantment and can be combined with an Enchanted Book of the same enchantment to create one that's a level higher than the max. This costs 35 levels to create the book and an extra 35 to apply it.",
+				"A netherite pickaxe with Efficiency VI and Haste II can instamine deepslate"
 			]
 		},
 		{
@@ -1030,8 +1092,7 @@
 			"desc": [
 				"Endermosh is a new music disc that can be found in End Cities.",
 				"The song was created by Kain Vinosec and can be found on YouTube <a href='https://youtu.be/tnaypKb0SGE'>here</a>."
-			],
-			"download": "https://youtu.be/tnaypKb0SGE"
+			]
 		},
 		{
 			"name": "Pathfinder Maps",
@@ -1137,6 +1198,7 @@
 			"added": "1.18",
             "desc": [
 				"The Cluster variants of Corundum (from the World module) can be used to redirect beacon beams and change their color. If Corundum is disabled, Amethyst can be used instead.",
+				"Tinted Glass can also be used to dim the beam.",
 				"Note that for a beacon to function, the final segment must always face upwards towards the sky."
 			]
 		},
@@ -1147,6 +1209,15 @@
             "desc": [
 				"Parrots can now lay eggs, which when thrown will hatch a parrot of the egg's color.",
 				"Parrots start to lay an egg rarely when fed, and it will take 10 minutes for them to lay the egg."
+			]
+		},
+		{
+			"name": "Torch Arrows",
+			"image": "torch-arrows.jpg",
+			"added": "1.19.2",
+            "desc": [
+				"Torch Arrows can be crafted with a normal torch and arrow.",
+				"They will set entities on fire or place a torch where they land."
 			]
 		}
 	],
@@ -1185,14 +1256,6 @@
 			"desc": [
 				"Firework Rockets are able to be used to start Elytra flying, even if you're not currently in that state.",
 				"All you have to do is right click a Firework Rocket while wearing an Elytra, and you'll shoot up into the sky."
-			]
-		},
-		{
-			"name": "Charcoal to Black Dye",
-			"image": "charcoal-black-dye.jpg",
-			"added": "1.19.2",
-			"desc": [
-				"Charcoal can be used as an alternative way to craft black dye."
 			]
 		},
 		{
@@ -1262,15 +1325,6 @@
 			]
 		},
 		{
-			"name": "Jukebox Automation",
-			"image": "jukebox-automation.jpg",
-			"added": "1.16.4",
-			"desc": [
-				"Dispensers are now able to place discs into Jukeboxes.",
-				"This includes ambience discs."
-			]
-		},
-		{
 			"name": "Lock Rotation",
 			"image": "lock-rotation.jpg",
 			"added": "1.14",
@@ -1324,11 +1378,12 @@
 			]
 		},
 		{
-			"name": "Safe Rabbits",
+			"name": "Safer Creatures",
 			"image": "safe-rabbits.jpg",
 			"added": "1.19.2",
 			"desc": [
-				"Fall damage for rabbits is now calculated 5 blocks lower than other mobs, allowing them to drop from higher jumps without taking damage."
+				"Rabbit fall damage is now calculated 5 blocks lower than other mobs, allowing them to drop from higher jumps without taking damage.",
+				"Slimes will take no fall damage."
 			]
 		},
 		{
@@ -1388,6 +1443,10 @@
 				"!img/features/tweaks/utility-recipes/coral-to-dye.jpg",
 				"Cookies, Paper, and Bread can be crafted in a 2x2 crafting grid as a \"bent\" recipe.",
 				"!img/features/tweaks/utility-recipes/bent-paper.jpg",
+				"Raw Ore Blocks can be smelted to obtain a Block of their material (takes 9x the time).",
+				"!img/features/tweaks/utility-recipes/raw-blocks.jpg",
+				"Charcoal can be used as an alternative way to craft black dye.",
+				"!img/features/tweaks/utility-recipes/charcoal-dye.jpg",
 				"#Additional Tweaks",
 				"*Dragon Breath, when brewed, consumes the bottle so it doesn't gum up the system.",
 				"*Torches can be used as fuel in furnace, smelting two items each.",
@@ -1506,14 +1565,6 @@
 			]
 		},
 		{
-			"name": "Quiet Minecarts",
-			"image": "quiet-minecarts.jpg",
-			"added": "1.19.2",
-			"desc": [
-				"Minecarts will produce a lot less sound when their rails are placed onto wool blocks."
-			]
-		},
-		{
 			"name": "Coral on Cactus",
 			"image": "coral-on-cactus.jpg",
 			"added": "1.19.2",
@@ -1536,8 +1587,9 @@
 			"image": "fortunate-gold.jpg",
 			"added": "1.19.2",
 			"desc": [
-				"Golden Tools will come with a baked in fortune 2 and looting 2 effect.",
-				"This does not stack with the enchantments, but can be superseded by an enchantment more powerful than level 2" 
+				"Golden Tools will come with a baked in fortune 2 effect.",
+				"This does not stack with the enchantments, but can be superseded by an enchantment more powerful than level 2",
+				"Golden Swords will have Looting 2 instead."
 			]
 		},
 		{
@@ -1546,6 +1598,38 @@
 			"added": "1.19.2",
 			"desc": [
 				"Sponges can be placed directly onto water without needing to place them on the side of a block."
+			]
+		},
+		{
+			"name": "No Anvil Durability on Cosmetics",
+			"image": "no-durability-on-cosmetics.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Anvils won't be damaged from cosmetic uses such as renaming or applying runes."
+			]
+		},
+		{
+			"name": "Shulker Packing",
+			"image": "shulker-packing.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Shulker Boxes can be created by holding a shulker shell in both hands and shift-right clicking a chest."
+			]
+		},
+		{
+			"name": "Slabs to Blocks",
+			"image": "slabs-to-blocks.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Slabs can be recombined into blocks in a shapeless recipe."
+			]
+		},
+		{
+			"name": "Swimming Horses",
+			"image": "swimming-horses.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Horses will now swim in water while being ridden, instead of sinking and force dismounting their rider."
 			]
 		}
 	],
@@ -2132,7 +2216,7 @@
 			"added": "1.15",
 			"desc": [
 				"Matrix Enchanting is a complete overhaul of the enchanting system. Pieces can be generated using lapis and XP. The pieces then have to be laid on the grid to enchant the item. Pieces can be rotated and upgraded into higher levels.",
-				"Furthermore, the enchanting table can now hold Lapis and the item you put in. The item will even render in the world! You can enchant underwater too.",
+				"Furthermore, the enchanting table can now hold Lapis and the item you put in. The item will even render in the world! Short blocks like carpets and trapdoors, and liquids, can be placed between enchanting tables and bookshelves without blocking them.",
 				"If you want to know more about how to use Matrix Enchanting, press More Info."
 			],		
 			"expand": [
@@ -2170,11 +2254,11 @@
 			]
 		},
 		{
-			"name": "Crate",
+			"name": "Storage Crate",
 			"image": "crate.jpg",
 			"added": "1.16.4",
 			"desc": [
-				"The Crate is an alternative storage block that can hold up to 640 items, regardless of stack size. A full stack of an item will take up 64, but 64 different items will also take up the same amount.",
+				"The Storage Crate is an alternative storage block that can hold up to 640 items, regardless of stack size. A full stack of an item will take up 64, but 64 different items will also take up the same amount.",
 				"This makes the crate not very good for storing bulk items, but excellent for storing a high variety of items in one spot, or for collecting unstackables."
 			]
 		},
