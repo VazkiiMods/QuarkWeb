@@ -329,7 +329,7 @@
 		<hr>
 
 		<div id="footer-info">	
-			website by vazkii (<a href="mailto:vazkii@hotmail.com" class="no-external">contact me</a>)<br>
+			website by vazkii (<a href="mailto:vazkii@violetmoon.org" class="no-external">contact me</a>)<br>
 			copyright lolololol
 		</div>
 		
