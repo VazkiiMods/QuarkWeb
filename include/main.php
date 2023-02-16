@@ -186,6 +186,7 @@
 			<div class="main-page-section">
 				<div class="section-header">Additional Credits</div>
 				<ul>
+					<li><b>Bobisnotaperson</b> for the raw ore brick textures and two secret textures.</li>
 					<li><b>Hudeler</b> for helping with updating the website.</li>
 					<li><b>cheeserolls</b> for the biome location code from Biomes'o'Plenty used for Pathfinder Maps.</li>
 					<li><b>Daniel Astral</b> for the world stone variant textures.</li>
