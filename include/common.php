@@ -7,9 +7,9 @@
 		return json_decode($contents, true);
 	}
 
-	function img($src, $class="") {
+	function img($src, $class="", $title="") {
 		global $repo_url;
-		push('img', $class, array('src' => 'img/loading.jpg', 'data-lazy-src' => $repo_url . $src));
+		push('img', $class, array('src' => 'img/loading.jpg', 'data-lazy-src' => $repo_url . $src, 'title' => $title));
 		pop();
 	}
 
