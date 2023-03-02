@@ -93,7 +93,9 @@
 
 		div($class, $data);
 			div('feature-image');
-				img("img/features/$category_name/{$feature['image']}");
+				if (array_key_exists('title', $feature)) $title = $feature['title'];
+				else $title = "";
+				img("img/features/$category_name/{$feature['image']}","",$title);
 			pop();
 
 			div('feature-info');
