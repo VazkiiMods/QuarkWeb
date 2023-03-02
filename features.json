@@ -2213,6 +2213,7 @@
 		{
 			"name": "Matrix Enchanting",
 			"image": "matrix-enchanting.jpg",
+			"title": "\"what mod is this from, how do i disable it\"",
 			"added": "1.15",
 			"desc": [
 				"Matrix Enchanting is a complete overhaul of the enchanting system. Pieces can be generated using lapis and XP. The pieces then have to be laid on the grid to enchant the item. Pieces can be rotated and upgraded into higher levels.",
