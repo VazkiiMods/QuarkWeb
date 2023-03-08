@@ -933,7 +933,8 @@
 			"image": "automatic-tool-restock.jpg",
 			"added": "1.19.2",
             "desc": [
-                "Pick Block can select blocks at any distance."
+                "When a tool breaks on your hotbar, it will be restocked by other items of the same type taken from your inventory.",
+				"It will prioritise tools with similar enchantments, such as silk touch."
             ]
 		}
 	],
