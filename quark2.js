@@ -113,17 +113,20 @@ function updateEntry(changed, setHash) {
 	$(`.navbar-link:not(${dataSelector})`).removeClass('navbar-selected');
 
 	if(changed) {
-		if(selectedEntry == 'features')
+		var isFeatures = selectedEntry == 'features';
+		if(isFeatures)
 			updateCategory(false);
 
 		var next = $(`.content-holder${dataSelector}`);
 		next.css({opacity: 0, 'margin-left': '150px'});
 
 		$('.active-holder').animate({opacity: 0, 'margin-left': '-150px'}, 250, function() {
-			$(this).removeClass('active-holder');	
+			$(this).removeClass('active-holder');
 			next.addClass('active-holder');
 			next.animate({opacity: 1, 'margin-left': '0px'}, 250);
 			updateLazyImages();
+			if(isFeatures)
+				updateAds();
 		});
 
 		if(setHash)
