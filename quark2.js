@@ -146,6 +146,7 @@ function updateCategory(changed) {
 			next.addClass('active-category');
 			next.animate({opacity: 1, 'margin-left': '0px'}, 250);
 			updateLazyImages();
+			updateAds();
 		});
 	}
 }
@@ -155,6 +156,15 @@ function updateLazyImages() {
 		var elm = $(this);
 		elm.attr('src', elm.attr('data-lazy-src'));
 		elm.addClass('loaded-image');
+	});
+}
+
+function updateAds() {
+	$('.active-category .ad-needs-loading').each(function(e) {
+		var elm = $(this);
+		elm.html('<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8187973747660885" data-ad-slot="8779808804" data-ad-format="auto" data-full-width-responsive="true"></ins>');
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		elm.removeClass('ad-needs-loading');
 	});
 }
 
