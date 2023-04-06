@@ -19,6 +19,9 @@
 	<link rel="icon" href="favicon.ico">
 </head>
 <body>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8187973747660885"
+     crossorigin="anonymous"></script>
+     
 	<div id="header">
 		<div id="header-branding" class=data-entry-changer data-entry="home">
 			<div id="header-icon"><img src="img/icon.png"></img></div>

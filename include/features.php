@@ -1,4 +1,6 @@
 <?php
+	require 'include/ad.php';
+
 	function main_features() {
 		global $feature_data;
 		write_feature_data($feature_data);
@@ -46,6 +48,8 @@
 					write(" Features)");
 				pop();
 			}
+
+			append_ad();
 
 			if($count == 0) {
 				push('h1');
