@@ -165,7 +165,7 @@ function updateLazyImages() {
 function updateAds() {
 	$('.active-category .ad-needs-loading').each(function(e) {
 		var elm = $(this);
-		elm.html('<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8187973747660885" data-ad-slot="8779808804" data-ad-format="auto" data-full-width-responsive="true"></ins>');
+		elm.html('<ins class="adsbygoogle" style="display:inline-block;width:970px;height:90px" data-ad-client="ca-pub-8187973747660885" data-ad-slot="8779808804"></ins>');
 		(adsbygoogle = window.adsbygoogle || []).push({});
 		elm.removeClass('ad-needs-loading');
 	});

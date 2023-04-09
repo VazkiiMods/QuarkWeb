@@ -482,6 +482,7 @@ a:not(.no-external)::after, .show-external::after {
 
 .ad-container {
 	padding: 20px;
+	max-height: 200px;
 }
 
 .ad-container::before {
