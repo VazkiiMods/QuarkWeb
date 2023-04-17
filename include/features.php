@@ -17,6 +17,8 @@
 	}
 
 	function write_category($name, $category, $displayed, $next) {
+		global $enable_ad;
+
 		$class = 'feature-category';
 		if($displayed)
 			$class = "$class active-category";
@@ -47,8 +49,10 @@
 				pop();
 			}
 
-			div('ad-container ad-needs-loading');
-			pop();
+			if($enable_ad) {
+				div('ad-container ad-needs-loading');
+				pop();	
+			}
 
 			if($count == 0) {
 				push('h1');
