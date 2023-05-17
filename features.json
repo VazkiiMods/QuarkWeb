@@ -1099,6 +1099,7 @@
 			"name": "Pathfinder Maps",
 			"image": "pathfinder-maps.jpg",
 			"added": "1.14",
+			"removed": "1.19.2",
 			"desc": [
 				"Cartographer Villagers will now sell Pathfinder Maps, new maps that will take you to certain biomes. Each Cartographer will stock a random assortment of them, and the possible trades are as follows by default:",
 				"*Apprentice (Expert in 1.16+): Snowy Plains Map, Windswept Hills, Dark Forest, Desert, Savanna",
@@ -1107,6 +1108,18 @@
 				"*Master: Mushroom Fields, Ice Spikes",
 				"If you're using mods that add more biomes, more maps can be added in the config file.",
 				"Note: Prior to 1.18, Snowy Plains Map, Windswept Hills Map, and Old Growth Pine Taiga Map were replaced by Snowy Tundra Map, Mountains Map, and Giant Tree Taiga Map, respectively."
+			]
+		},
+		{
+			"name": "Pathfinder Maps",
+			"image": "pathfinder-maps.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Cartographer Villagers will now sell Pathfinder Quills, which over time can be used to generate Pathfinder Maps, new maps that will take you to certain biomes. Each Cartographer will stock a random assortment of them, and the possible trades are as follows by default:",
+				"*Expert: Snowy Plains Map, Windswept Hills, Dark Forest, Desert, Savanna, Jungle, Bamboo Jungle, Badlands",
+				"*Master: Swamp, Old Growth Pine Taiga, Flower Forest, Mushroom Fields, Ice Spikes",
+				"*Wandering Trader: Can carry any Quill, chosen randomly.",
+				"If you're using mods that add more biomes, more quills can be added in the config file."
 			]
 		},
 		{
@@ -1631,6 +1644,14 @@
 			"added": "1.19.2",
 			"desc": [
 				"Horses will now swim in water while being ridden, instead of sinking and force dismounting their rider."
+			]
+		},
+		{
+			"name": "Slimes to Magma Cubes",
+			"image": "slimes-to-magma-cubes.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"When a large slime dies on magba blocks, the smaller slimes spawned will be turned into magma cubes."
 			]
 		}
 	],
