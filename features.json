@@ -1222,7 +1222,7 @@
 			"added": "1.18.2",
             "desc": [
 				"Parrots can now lay eggs, which when thrown will hatch a parrot of the egg's color.",
-				"Parrots start to lay an egg rarely when fed, and it will take 10 minutes for them to lay the egg."
+				"Parrots start to lay an egg rarely when fed beetroot seeds, and it will take 10 minutes for them to lay the egg."
 			]
 		},
 		{
@@ -1357,12 +1357,13 @@
 			]
 		},
 		{
-			"name": "Note Block Mob Sounds",
+			"name": "More Note Block Sounds",
 			"image": "note-block-mob-sounds.jpg",
 			"added": "1.14",
 			"desc": [
 				"Note Blocks with heads attached to their side will emit the respective mob's sound instead of a note.",
-				"The mob sound's pitch is based on the note block pitch."
+				"The mob sound's pitch is based on the note block pitch.",
+				"You can also place an amethyst block under a note block to place amethyst sounds."
 			]
 		},
 		{
@@ -1651,7 +1652,7 @@
 			"image": "slimes-to-magma-cubes.jpg",
 			"added": "1.19.2",
 			"desc": [
-				"When a large slime dies on magba blocks, the smaller slimes spawned will be turned into magma cubes."
+				"When a large slime dies on magma blocks, the slimes spawned will be turned into magma cubes."
 			]
 		}
 	],
