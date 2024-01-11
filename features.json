@@ -208,6 +208,7 @@
 			"desc": [
 				"The Iron Grate is a cool new block with multiple uses. Animals are afraid of walking on it, and will never do it, whereas items will just fall through the gaps.",
 				"Players, monsters, and other entities will just walk through normally.",
+				"Grates can be crawled under, similar to hollow logs.",
 				"1.16+ Only: Animals being held by a leash will also walk over the block just fine."
 			]
 		},
@@ -497,7 +498,8 @@
 				"Chests can be made of all the different wood types. Each one is styled differently for the type of wood you use.",
 				"To get the vanilla chest, you can craft a chest with more than one type of wood, or woods added by other mods.",
 				"1.16.3+ Only: These variant chests will also replace the chests found in structures in the world.",
-				"1.16.4+ Only: Variant Chests can be converted into Vanilla Chests by placing them in a crafting table."
+				"1.16.4+ Only: Variant Chests can be converted into Vanilla Chests by placing them in a crafting table.",
+				"Includes support for the Lootr mod."
 			]
 		},
 		{
@@ -773,7 +775,8 @@
 			"added": "1.15",
 			"desc": [
 				"Pressing F12 (by default, rebindable) will open Camera Mode.",
-				"In this new mode, you can take enhanced screenshots, by using over 20 image filters, and combining them with borders and overlays. You can even enable grid lines such as the Rule of Thirds or the Golden Ratio to help you take a perfect image!"
+				"In this new mode, you can take enhanced screenshots, by using over 20 image filters, and combining them with borders and overlays. You can even enable grid lines such as the Rule of Thirds or the Golden Ratio to help you take a perfect image!",
+				"Date format can be changed in the config."
 			]
 		},
 		{
@@ -893,7 +896,7 @@
 			"added": "1.14",
 			"desc": [
 				"A \"Sort\" button is added to the inventory screen and Chests. Pressing this button sorts your inventory, excepting your hotbar.",
-				"Sorting is done via a category system, in which items are placed based on what category they fit in (food, tool, armor, block, etc.). Each category also has its own sorting rules, e.g. food will get sorted based on which is more filling; tools will get sorted based on which one is the best, or has more durability."
+				"Sorting is done via a category system, in which items are placed based on what category they fit in (food, tool, armor, block, etc.). Each category also has its own sorting rules, e.g. food will get sorted based on which is more filling; tools will get sorted based on which one is the best, or has more durability; potions and tipped arrows will be sorted based on their effects."
 			]
 		},
 		{
@@ -988,6 +991,9 @@
 			"added": "1.14",
 			"desc": [
 				"Crabs are cute new animals that spawn in beaches. They walk sideways and will prick you if you get too close! If you kill one, they might drop Crab Legs or Crab Shells.",
+				"*Crabs can be bucketed like Axolotls.",
+				"*Giant Crabs can be ridden.",
+				"*Crabs aren't hurt by cacti or berry bushes, they're unprickable.",
 				"*Crab Legs can be cooked and eaten, they're quite tasty!",
 				"*Crab Shells can be brewed into a Potion of Resilience. While under its effect, you'll gain additional knockback resistance.",
 				"*Crabs can be bred with Wheat, Chicken, or any type of Fish.",
@@ -1132,7 +1138,7 @@
 			"image": "pathfinder-maps.jpg",
 			"added": "1.19.2",
 			"desc": [
-				"Cartographer Villagers will now sell Pathfinder Quills, which over time can be used to generate Pathfinder Maps, new maps that will take you to certain biomes. Each Cartographer will stock a random assortment of them, and the possible trades are as follows by default:",
+				"Cartographer Villagers will now sell Pathfinder Quills, which over time can be used to generate Pathfinder Maps, new maps that will take you to certain biomes. There is a config option to choose if they can try again upon failing. Each Cartographer will stock a random assortment of them, and the possible trades are as follows by default:",
 				"*Expert: Snowy Plains Map, Windswept Hills, Dark Forest, Desert, Savanna, Jungle, Bamboo Jungle, Badlands",
 				"*Master: Swamp, Old Growth Pine Taiga, Flower Forest, Mushroom Fields, Ice Spikes",
 				"*Wandering Trader: Can carry any Quill, chosen randomly.",
@@ -1220,7 +1226,8 @@
 			"image": "bundle-recipe.jpg",
 			"added": "1.18",
             "desc": [
-            	"Bundles are now craftable with the same recipe that was to be introduced to vanilla."
+            	"Bundles are now craftable with the same recipe that was to be introduced to vanilla.",
+				"They also feature a scroll interaction to change the order of contained items."
             ]
 		},
 		{
@@ -1388,7 +1395,8 @@
 			"image": "pat-the-dogs.jpg",
 			"added": "1.14",
 			"desc": [
-				"You can pat the dogs. Sneak-click them with an empty hand to perform this glorious act."
+				"You can pat the dogs. Sneak-click them with an empty hand to perform this glorious act.",
+				"You can change which mobs can be pat through use of the config."
 			]
 		},
 		{
@@ -1431,7 +1439,7 @@
 			"image": "simple-harvest.jpg",
 			"added": "1.14",
 			"desc": [
-				"Right clicking a crop will harvest it and replant it. If you have Hoe Harvesting enabled, you can also harvest a large area at once."
+				"Right clicking a crop will harvest it and replant it. If you have Hoe Harvesting enabled, you can also harvest a large area at once, which can be changed in the config."
 			]
 		},
 		{
@@ -1621,7 +1629,8 @@
 			"desc": [
 				"Golden Tools will come with a baked in fortune 2 effect.",
 				"This does not stack with the enchantments, but can be superseded by an enchantment more powerful than level 2",
-				"Golden Swords will have Looting 2 instead."
+				"Golden Swords will have Looting 2 instead.",
+				"Additional enchantments can be added using the config."
 			]
 		},
 		{
@@ -2010,6 +2019,7 @@
 			"added": "1.14",
 			"desc": [
 				"Monster Boxes are new blocks you may find randomly scattered around caves deep underground. When you get near one, it'll start spawning a few mobs, and then break.",
+				"The activation range can be configured.",
 				"Mobs you kill that are spawned from one of these get an extra loot table tacked onto them, including cool rare items like Infested Blocks (the ones with Silverfish!), ores, and even a Monster Box you can use to prank your friends!"
 			]
 		},
