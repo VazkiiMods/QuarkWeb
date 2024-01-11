@@ -668,6 +668,15 @@
 				"You can sneak next to a horizontal Hollow Log to climb inside.",
 				"You can also climb the inside of a vertical Hollow Log like a ladder."
 			]
+		},
+		{
+			"name": "Rainbow Lamps",
+			"image": "rainbow-lamps.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Rainbow Lamps can be made of corundum by default and powered by redstone.",
+				"They will color beacons while powered."
+			]
 		}
 	],
 	"client": [
@@ -828,6 +837,14 @@
 			"added": "1.19.2",
 			"desc": [
 				"Minecarts will produce a lot less sound when their rails are placed onto wool blocks."
+			]
+		},
+		{
+			"name": "Buckets Show Inhabitants",
+			"image": "buckets-show-inhabitants.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Buckets can display variants of mobs like crabs, axolotls and tropical fish."
 			]
 		}
 	],
@@ -1653,6 +1670,14 @@
 			"added": "1.19.2",
 			"desc": [
 				"When a large slime dies on magma blocks, the slimes spawned will be turned into magma cubes."
+			]
+		},
+		{
+			"name": "Map Washing",
+			"image": "map-washing.jpg",
+			"added": "1.19.2",
+			"desc": [
+				"Maps can be washed in a cauldron, turning them back into blank maps."
 			]
 		}
 	],
