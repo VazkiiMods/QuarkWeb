@@ -102,11 +102,18 @@
 						<a href="https://violetmoon.org">Violet Moon</a>
 					</div>
 					<div class="vm-subtitle">
-						Quark Team
+						Quark &amp; Zeta Team
 					</div>
 				</div>
 
 				<div class="team-holder">
+					<div class="team-member">
+						<div class="team-avatar"><img src="img/avatars/vazkii_full.png"></img></div>
+						<div class="team-name"><a href="https://vazkii.net">Vazkii</a></div>
+						<div class="team-role">Lead Developer &amp; Designer</div>
+					</div>
+					<div class="team-separator"></div>
+
 					<div class="team-member">
 						<div class="team-avatar"><img src="img/avatars/sully_full.png"></img></div>
 						<div class="team-name"><a href="https://twitter.com/ModSully">Sully</a></div>
@@ -115,31 +122,39 @@
 					<div class="team-separator"></div>
 
 					<div class="team-member">
-						<div class="team-avatar"><img src="img/avatars/vazkii_full.png"></img></div>
-						<div class="team-name"><a href="https://twitter.com/vazkii">Vazkii</a></div>
-						<div class="team-role">Lead Developer / Designer</div>
-					</div>
-					<div class="team-separator"></div>
-
-					<div class="team-member">
 						<div class="team-avatar"><img src="img/avatars/wiresegal_full.png"></img></div>
-						<div class="team-name"><a href="https://twitter.com/wiresegal">Wire Segal</a></div>
-						<div class="team-role">Developer / Maintainer</div>
+						<div class="team-name"><a href="https://github.com/yrsegal">Wire Segal</a></div>
+						<div class="team-role">Gameplay Developer</div>
 					</div>
 
-					<br>
+					<br><br>
 
 					<div class="team-member">
-						<div class="team-avatar"><img src="img/avatars/vinny_full.png"></img></div>
-						<div class="team-name"><a href="https://twitter.com/MCVinnyq">MCVinnyq</a></div>
-						<div class="team-role">Ex-Artist</div>
+						<div class="team-avatar"><img src="img/avatars/quat_full.png"></img></div>
+						<div class="team-name"><a href="https://github.com/quat1024">quaternary</a></div>
+						<div class="team-role">Zeta Developer</div>
 					</div>
 					<div class="team-separator"></div>
 
 					<div class="team-member">
-						<div class="team-avatar"><img src="img/avatars/alwinfy_full.png"></img></div>
-						<div class="team-name"><a href="https://twitter.com/alwinfy">Alwinfy</a></div>
-						<div class="team-role">Issue Management</div>
+						<div class="team-avatar"><img src="img/avatars/ithundxr_full.jpg"></img></div>
+						<div class="team-name"><a href="https://github.com/ithundxr">IThundxr</a></div>
+						<div class="team-role">Zeta Developer</div>
+					</div>
+					<div class="team-separator"></div>
+
+					<div class="team-member">
+						<div class="team-avatar"><img src="img/avatars/siuol_full.jpg"></img></div>
+						<div class="team-name"><a href="https://github.com/siuolplex">siuolplex</a></div>
+						<div class="team-role">Zeta Developer</div>
+					</div>
+
+					<br><br>
+
+					<div class="team-member">
+						<div class="team-avatar"><img src="img/avatars/mehvahdjukaar_full.png"></img></div>
+						<div class="team-name"><a href="https://twitter.com/Supplementariez">MehVahdJukaar</a></div>
+						<div class="team-role">Maintainer</div>
 					</div>
 					<div class="team-separator"></div>
 
@@ -263,9 +278,19 @@
 						<div class="button-subtitle">from CurseForge</div>
 					</div></a>
 
+					<a href="https://modrinth.com/mod/quark" class="no-external"><div class="std-button button-download">
+						<div class="button-title">Download Quark</div>
+						<div class="button-subtitle">from Modrinth</div>
+					</div></a>
+
+					<a href="https://www.curseforge.com/minecraft/mc-mods/zeta" class="no-external"><div class="std-button button-download-muted">
+						<div class="button-title">Download Zeta</div>
+						<div class="button-subtitle">(needed for Quark 1.20.1 onwards)</div>
+					</div></a>
+
 					<a href="https://www.curseforge.com/minecraft/mc-mods/autoreglib" class="no-external"><div class="std-button button-download-muted">
-						<div class="button-title">Download ARL</div>
-						<div class="button-subtitle">(needed for Quark to work)</div>
+						<div class="button-title">Download AutoRegLib</div>
+						<div class="button-subtitle">(needed for Quark 1.19.2 and older)</div>
 					</div></a>
 				</div>
 				<div class="std-button button-long" id="install-instructions-button">
@@ -280,7 +305,7 @@
 								<li>Select "Mods" in the top bar, and then Minecraft.</li>
 								<li>Click Create Custom Profile, name it and pick your Minecraft version.</li>
 								<li>Open the profile, and click Get More Content</li>
-								<li>Search for Quark and install it. This will also install AutoRegLib.</li>
+								<li>Search for Quark and install it. This will also install Zeta or AutoRegLib.</li>
 								<li>Go back to the profile and hit Play. You're done.</li>
 							</ol>
 						</p>
@@ -292,8 +317,10 @@
 								<li>Download the Installer and run it, click OK. This will do a bunch of stuff so wait a bit until it's done.</li>
 								<li>Load up your Minecraft Java Edition Launcher, and run the "forge" Installation it created for you.</li>
 								<li>Click the new "Mods" button in your title screen, and then "Open Mods Folder".</li>
-								<li>Download both Quark and AutoRegLib (ARL) using the download buttons above.</li>
+								<li>Download both Quark and the required Library Mod using the download buttons above.</li>
 									<ul>
+										<li>1.19.2 and prior requires AutoRegLib.</li>
+										<li>1.20.1 onwards requires Zeta.</li>
 										<li>The Download link on the CurseForge website is in the top right corner.</li>
 									</ul>
 								<li>Drag the two files you just downloaded into the mods folder.</li>
@@ -307,7 +334,7 @@
 								<li>Run your forge installer like before, but select "Install server" this time.</li>
 								<li>Click the ... button and pick a folder to put your server. It has to be empty so you should make a new one.</li>
 								<li>Open the folder where you put your server, and make a new folder, named "mods"</li>
-								<li>Download AutoRegLib and Quark, and put the downloaded files into that folder.</li>
+								<li>Download Zeta/AutoRegLib and Quark, and put the downloaded files into that folder.</li>
 								<li>Run the server using the forge jar, <i>not the minecraft_server jar</i>. Don't forget to accept the EULA.</li>
 							</ol>
 						</p>
