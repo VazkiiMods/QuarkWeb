@@ -160,7 +160,7 @@
 			"name": "Jukebox Automation",
 			"image": "jukebox-automation.jpg",
 			"added": "1.16.4",
-			"removed": "1.20.1",
+			"removed": "1.20",
 			"desc": [
 				"Dispensers are now able to place discs into Jukeboxes.",
 				"This includes ambience discs."
@@ -649,7 +649,7 @@
 			"name": "Bamboo Backport",
 			"image": "bamboo-backport.jpg",
 			"added": "1.19.2",
-			"removed": "1.20.1",
+			"removed": "1.20",
 			"desc": [
 				"Bamboo from the 1.19.3 experimental features is backported to 1.19.2.",
 				"This also includes all of the quark wood type features but not the raft."
@@ -1227,7 +1227,7 @@
 			"name": "Bundle Recipe",
 			"image": "bundle-recipe.jpg",
 			"added": "1.18",
-			"removed": "1.20.1",
+			"removed": "1.20",
             "desc": [
             	"Bundles are now craftable with the same recipe that was to be introduced to vanilla.",
 				"They also feature a scroll interaction to change the order of contained items."
@@ -1387,7 +1387,7 @@
 			"name": "More Note Block Sounds",
 			"image": "note-block-mob-sounds.jpg",
 			"added": "1.14",
-			"removed": "1.20.1",
+			"removed": "1.20",
 			"desc": [
 				"Note Blocks with heads attached to their side will emit the respective mob's sound instead of a note.",
 				"The mob sound's pitch is based on the note block pitch.",
@@ -1434,7 +1434,7 @@
 			"name": "Sign Editing",
 			"image": "sign-editing.jpg",
 			"added": "1.14",
-			"removed": "1.20.1",
+			"removed": "1.20",
 			"desc": [
 				"Right clicking a sign now lets you edit it even after it's been placed."
 			]
