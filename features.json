@@ -17,7 +17,8 @@
 			"added": "1.14",
 			"desc": [
 				"The Chute is a new automation block. Items can be inserted into it via automation (Hopper, Dropper, etc), and any items inserted are instantly dropped under it, always precisely in the center.",
-				"The Chute can be disabled with a redstone signal or by placing a block under it."
+				"The Chute can be disabled with a redstone signal or by placing a block under it.",
+				"The Chute can drop items through hollow logs."
 			]
 		},
 		{
@@ -165,6 +166,17 @@
 				"Dispensers are now able to place discs into Jukeboxes.",
 				"This includes ambience discs."
 			]
+		},
+		{
+			"name": "Crafter Backport",
+			"image": "crafter.jpg",
+			"added": "1.20",
+			"removed": "1.21",
+			"desc": [
+				"Backport of the crafter from the 1.21 snapshots.",
+				"Differs slightly from the Mojang version as it was made before the snapshot released.",
+				"Thanks to Emi for creating the backport!"
+			]
 		}
 	],
 	"building": [
@@ -174,7 +186,7 @@
 			"added": "1.14",
 			"desc": [
 				"A bunch of blocks can now be crafted into compressed variants.",
-				"*Charcoal can be crafted into a Charcoal Block, which will burn forever.",
+				"*Charcoal can be crafted into a Block of Charcoal, which will burn forever.",
 				"*Blaze Rods and Powder can be crafted into a Blaze Lantern. It'll also burn forever.",
 				"*Leather can be crafted into Bonded Leather.",
 				"*Sugar Cane, Bamboo, Cactus, Chorus Fruits, and Sticks can be made into various blocks that can be placed like a pillar.",
@@ -1015,26 +1027,26 @@
 			]
 		},
 		{
-			"name": "Toretoises",
+			"name": "Oretoises",
 			"image": "toretoises.jpg",
 			"added": "1.15",
             "desc": [
-                "Toretoises are new neutral mobs that will spawn deep underground and in complete darkness. When a Toretoise spawns, it'll come with a random type of ore (Coal, Copper, Iron, Lapis, or Redstone). You may attack the Toretoise with a pickaxe to have it drop that ore!",
-           		"If you hit a Toretoise without a pickaxe, or when it has no ore, it'll emit a shockwave attack. This will damage any non-Toretoise entities around, and redirect their aggro to you.",
-           		"With enough care, it's possible to carry a Toretoise home and feed it so it grows more ores, feel free to click More Info for some tips on how to do it."
+                "Oretoises are new neutral mobs that will spawn deep underground and in complete darkness. When an Oretoise spawns, it'll come with a random type of ore (Coal, Copper, Iron, Lapis, or Redstone). You may attack the Oretoise with a pickaxe to have it drop that ore!",
+           		"If you hit an Oretoise without a pickaxe, or when it has no ore, it'll emit a shockwave attack. This will damage any non-Oretoise entities around, and redirect their aggro to you.",
+           		"With enough care, it's possible to carry an Oretoise home and feed it so it grows more ores, feel free to click More Info for some tips on how to do it."
             ],
             "expand": [
             	"If you want to take these huge creatures home and use them to generate ores, there's some things you should know.",
-            	"*Feeding the Toretoise Glow Berries will sometimes have it regenerate its ores.",
-            	"*The Toretoise will regenerate a random ore each time.",
-            	"*If the Feeding Trough (from the Automation module) is enabled, the Toretoise will eat from it.",
-            	"*Toretoises do not breed. They do spawn like hostile mobs, so you can go back for more.",
-            	"*When a Toretoise generates ore, it will enter an eating cooldown for 1 minute.",
-            	"*Toretoises will sink in water, and are immune to drowning, fall, and fire damage.",
-            	"*Toretoises are 1 block tall, but grow to 1.4 blocks tall if they have an ore.",
-            	"*Toretoises move very slowly, and can't be leashed, using Minecarts is recommended.",
-            	"*If Iron Rods (from the Automation module) are enabled, pushing them onto a Toretoise with a piston will break its ore.",
-            	"Note: Prior to 1.18, Toretoises were fed with Cave Roots (from the World module) instead (or Cactus if disabled). They also did not require complete darkness to spawn."
+            	"*Feeding the Oretoise Glow Berries will sometimes have it regenerate its ores.",
+            	"*The Oretoise will regenerate a random ore each time.",
+            	"*If the Feeding Trough (from the Automation module) is enabled, the Oretoise will eat from it.",
+            	"*Oretoise do not breed. They do spawn like hostile mobs, so you can go back for more.",
+            	"*When an Oretoise generates ore, it will enter an eating cooldown for 1 minute.",
+            	"*Oretoises will sink in water, and are immune to drowning, fall, and fire damage.",
+            	"*Oretoises are 1 block tall, but grow to 1.4 blocks tall if they have an ore.",
+            	"*Oretoises move very slowly, and can't be leashed, using Minecarts is recommended.",
+            	"*If Iron Rods (from the Automation module) are enabled, pushing them onto an Oretoise with a piston will break its ore.",
+            	"Note: Prior to 1.18, Oretoises were fed with Cave Roots (from the World module) instead (or Cactus if disabled). They also did not require complete darkness to spawn."
             ]
 		},
 		{
@@ -1178,6 +1190,7 @@
 			"name": "Colored Runes",
 			"image": "colored-runes.jpg",
 			"added": "1.14",
+			"removed": "1.20",
             "desc": [
                 "Colored Runes are a rare loot item from dungeons, temples and nether fortresses. They can be applied to enchanted items and lodestone compasses in an anvil, in order to change the color of the enchantment glint from purple to the color of the rune. These come in all 16 colors of the spectrum.",
                 "If you're dedicated enough, you can craft a Rainbow Rune by mixing together the runes that make the colors of the rainbow. It'll change color over time and look really cool!",
@@ -1191,6 +1204,16 @@
 				"Blank Runes can be used without dyeing to remove the enchantment glint.",
 				"Additionally in 1.16.4, the cost to apply a rune to an item was reduced from 15 to 5."
 		   	]
+		},
+		{
+			"name": "Runic Etching",
+			"image": "runic-etching.jpg",
+			"added": "1.20",
+            "desc": [
+                "Runic Etching smithing templates are a rare loot item from dungeons, temples and nether fortresses. They can be duplicated with corundum and cobblestone.",
+                "These smithing templates can be used on any enchanted item, and combined with a dye can change the color of the enchantment glint on said item.",
+                "They can also be applied with no dye to remove the glint, or applied with blaze powder to gain a rainbow effect!"
+            ]
 		},
 		{
 			"name": "Bottled Cloud",
@@ -1258,7 +1281,8 @@
 			"added": "1.19.2",
             "desc": [
 				"Torch Arrows can be crafted with a normal torch and arrow.",
-				"They will set entities on fire or place a torch where they land."
+				"They will set entities on fire or place a torch where they land.",
+				"They can be shot out of dispensers."
 			]
 		}
 	],
@@ -1992,6 +2016,7 @@
 			"name": "Blossom Wood",
 			"image": "blossom-trees/blossom-wood.jpg",
 			"added": "1.18.2",
+			"removed": "1.20",
 			"desc": [
 				"Blossom Trees are new uncommon specimen in esoteric colors that dot your landscape. Each color of tree will spawn in different types of biomes:",
 				"The trees come with their own wood type and pretty leaves, as well as new saplings you can put in flower pots for decor.",
@@ -2006,6 +2031,26 @@
 				"*Sweet Blossom Trees (pink) spawn in mountains.",
 				"*Sunny Blossom Trees (yellow) spawn in plains.",
 				"*Fiery Blossom Trees (red) spawn in badlands.",
+				"!img/features/world/blossom-trees/blossom-trees-2.jpg"
+			]
+		},
+		{
+			"name": "Trumpet Wood",
+			"image": "blossom-trees/blossom-wood.jpg",
+			"added": "1.20",
+			"desc": [
+				"Trumpet Trees are new uncommon specimen in esoteric colors that dot your landscape. Each color of tree will spawn in different types of biomes:",
+				"The trees come with their own wood type and pretty leaves, as well as new saplings you can put in flower pots for decor.",
+				"Trumpet wood can be used for all normal wood recipes, with a strong red tint."
+			],
+			"expand": [
+				" ",
+				"#Locations",
+				"*Frosty Trumpet Trees (blue) spawn in cold biomes.",
+				"*Serene Trumpet Trees (lavender) spawn in swamps.",
+				"*Warm Trumpet Trees (orange) spawn in savannas.",
+				"*Sunny Trumpet Trees (yellow) spawn in plains.",
+				"*Fiery Trumpet Trees (red) spawn in badlands.",
 				"!img/features/world/blossom-trees/blossom-trees-2.jpg"
 			]
 		},
@@ -2143,18 +2188,19 @@
 			]
 		},
 		{
-			"name": "Ancient Wood",
+			"name": "Ashen Wood",
 			"image": "ancient-wood/ancient-wood.jpg",
 			"added": "1.19.2",
 			"desc": [
-				"Ancient Wood is a new wood type which can be obtained from Ancient Trees.",
-				"Ancient Trees do not generate naturally, instead you can find ancient saplings in ancient cities.",
-				"Ancient Trees will also drop a new food item, that being the Ancient Fruit."
+				"Ashen Wood is a new wood type which can be obtained from Ashen Trees.",
+				"Ashen Trees do not generate naturally, instead ashen saplings can be dug up by Sniffers.",
+				"Pre 1.20 you can find ashen saplings in ancient cities.",
+				"Ashen Trees will also drop a new food item, that being the Enchanted Fruit."
 			],
 			"expand": [
 				" ",
-				"#Ancient Fruit",
-				"Ancient Fruit drops from Ancient Leaves, similar to apples.",
+				"#Enchanted Fruit",
+				"Enchanted Fruit drops from Ashen Leaves, similar to apples.",
 				"When eaten it will grant a small amount of experience.",
 				"!img/features/world/ancient-wood/ancient-fruit.jpg"
 			]
