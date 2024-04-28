@@ -1717,6 +1717,22 @@
 			"desc": [
 				"Maps can be washed in a cauldron, turning them back into blank maps."
 			]
+		},
+		{
+			"name": "Petals on Water",
+			"image": "petals-on-water.jpg",
+			"added": "1.20.1",
+			"desc": [
+				"Pink Petals can be placed onto water similar to lily pads."
+			]
+		},
+		{
+			"name": "Magma keeps Concrete Powder",
+			"image": "magma-keeps-concrete-powder.jpg",
+			"added": "1.20.1",
+			"desc": [
+				"Concrete Powder will not solidify if magma blocks are placed below."
+			]
 		}
 	],
 	"world": [
@@ -2203,6 +2219,15 @@
 				"Enchanted Fruit drops from Ashen Leaves, similar to apples.",
 				"When eaten it will grant a small amount of experience.",
 				"!img/features/world/ancient-wood/ancient-fruit.jpg"
+			]
+		},
+		{
+			"name": "Fallen Logs",
+			"image": "fallen-logs.jpg",
+			"added": "1.20.1",
+			"desc": [
+				"Uncommonly find fallen logs in forest, found covered in foliage.",
+				"Will spawn as hollow logs if they are enabled."
 			]
 		}
 	],
