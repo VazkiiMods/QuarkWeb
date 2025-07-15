@@ -2578,6 +2578,16 @@
 				"This works automatically and won't register ones that are already there"
 			],
 			"download": "https://www.curseforge.com/minecraft/mc-mods/vertical-slabs-compat"
+		},
+		{
+			"name": "Quark Ponders",
+			"image": "quarkponders.jpg",
+			"custom_version": "Friend",
+			"desc": [
+				"This is an addon for quark that brings the ponder mechanics from Create to the features of quark,",
+				"explaining how many of them work with in-game examples and explanation."
+			],
+			"download": "https://www.curseforge.com/minecraft/mc-mods/quarkponders"
 		}
 	]
 }
