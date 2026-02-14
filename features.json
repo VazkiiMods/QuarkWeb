@@ -2248,7 +2248,8 @@
             "image": "petals-on-water.jpg",
             "added": "1.21",
             "desc": [
-                "Some clumps of petals spawn on the ocean. It provides a nice looking flourish."
+                "Clumps of petals from the Petals on Water feature (under the Tweaks category) generate in the rivers of Cherry Grove biomes. It provides a nice looking flourish.",
+				"Size, frequency, and \"jaggedness\" are configurable. There is also an option to use Cherry Leaf Carpet from the World category instead."
             ]
         }
     ],
