@@ -982,7 +982,8 @@
                 "If you're brave enough, drink a fire resistance potion and feed them some Coal to tame them. Tamed Foxhounds work just like regular wolves, but with a few extra tidbits:",
                 "*They'll sleep on hot blocks like magma.",
                 "*If put on top of a furnace, they'll make the furnace faster. You can't put multiple doggos on a furnace to speed it up more, though.",
-                "*1.16+: If one would spawn in a Soul Sand Valley, you'll get one with blue soul fire particles and a blue texture."
+                "*1.16+: If one would spawn in a Soul Sand Valley, you'll get one with blue soul fire particles and a blue texture.",
+                "*1.21+: If you tame one, you can equip Wolf Armor on to them."
             ]
 		},
 		{
@@ -1078,7 +1079,8 @@
             "desc": [
                 "The Shiba is a new friendly dog that spawns in mountain biomes. They can be tamed and interacted with in the same way as a wolf but will in addition also fetch any arrows or tridents after they land and bring them back to you, as long as they are not sitting.",
                 "If you are holding a torch, they will also look for dark spots and get mad at them so you know where to light up next.",
-                "They'll also lay down if you're having them sit on a bed!"
+                "They'll also lay down if you're having them sit on a bed!",
+                "If using 1.21+: If you tame one, you can equip Wolf Armor on to them."
             ]
         },
 		{
@@ -1548,7 +1550,8 @@
 			"added": "1.14",
 			"desc": [
 				"When flying using an Elytra over a Campfire with a Hay Bale under it, the player will be propelled upwards slightly.",
-				"1.16.3+ Only: Soul Campfires will have the opposite effect, pulling you quickly towards the ground."
+				"1.16.3+ Only: Soul Campfires will have the opposite effect, pulling you quickly towards the ground.",
+                "1.21+ Only: You can place Iron Grates from their module above the campfire and it will not disrupt the velocity."
 			]
 		},
 		{
@@ -2125,10 +2128,20 @@
 			"name": "Fairy Rings",
 			"image": "fairy-rings.jpg",
 			"added": "1.15",
-			"desc": [
+            "removed": "1.20",
+            "desc": [
 				"Rarely in Forests and Plains (rarer), you may find little flower circles. Should you dig in the center, you'll find some emeralds or diamonds!"
 			]
 		},
+        {
+          "name": "Fairy Rings",
+          "image": "fairy-rings.jpg",
+          "added": "1.21",
+          "desc": [
+              "Rarely in Forests and Plains (rarer), you may find little flower circles. Should you dig in the center, you'll find some emeralds or diamonds!",
+              "As an aside, the Fae that generate worlds recently learnt some strategies to combat their dyslexia."
+          ]
+        },
 		{
 			"name": "Realistic World Type",
 			"image": "realistic-world-type.jpg",
@@ -2170,12 +2183,12 @@
 				"*Viaducts longer than 24 blocks, or that would cause a loop are illegal, and will just have the teleport go through as normal.",
 				"*On a fork, the destination is chosen randomly.",
 				"*It's possible a fork can lead to an illegal viaduct on one side, and a legal one on the other side. The results are handled independently. (e.g. a fork with an illegal loop on the left and a normal end on the right has a 50% chance to teleport to the right, and a 50% to leave you at the start)",
-				"*Yes, you can move them with pistons."
-			]
-		},
-		{
-			"name": "Glimmering Weald",
-			"image": "glimmering-weald.jpg",
+              "*Yes, you can move them with pistons."
+            ]
+        },
+      {
+        "name": "Glimmering Weald",
+        "image": "glimmering-weald.jpg",
 			"added": "1.18.1",
 			"desc": [
 				"The Glimmering Weald is a new underground biome found beneath Y=0, full of unique fungal vegetation.",
@@ -2229,8 +2242,16 @@
 				"Uncommonly find fallen logs in forest, found covered in foliage.",
 				"Will spawn as hollow logs if they are enabled."
 			]
-		}
-	],
+		},
+        {
+            "name": "Cherry Grove Water Petals",
+            "image": "petals-on-water.jpg",
+            "added": "1.21",
+            "desc": [
+                "Some clumps of petals spawn on the ocean. It provides a nice looking flourish."
+            ]
+        }
+    ],
 	"oddities": [
 		{
 			"addon": true,
