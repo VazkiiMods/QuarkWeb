@@ -144,8 +144,8 @@
 					<div class="team-separator"></div>
 
 					<div class="team-member">
-						<div class="team-avatar"><img src="img/avatars/siuol_full.jpg"></img></div>
-						<div class="team-name"><a href="https://github.com/siuolplex">siuolplex</a></div>
+						<div class="team-avatar"><img src="img/avatars/siuol_full.png"></img></div>
+						<div class="team-name"><a href="https://bsky.app/profile/siuol.bsky.social">siuolplex</a></div>
 						<div class="team-role">Zeta Developer</div>
 					</div>
 
@@ -160,9 +160,24 @@
 
 					<div class="team-member">
 						<div class="team-avatar"><img src="img/avatars/amymialee_full.png"></img></div>
-						<div class="team-name"><a href="https://twitter.com/amy_mialee">AmyMialee</a></div>
+						<div class="team-name"><a href="https://amymialee.dev/">AmyMialee</a></div>
 						<div class="team-role">Documenter</div>
 					</div>
+                    <div class="team-separator"></div>
+
+                    <div class="team-member">
+                        <div class="team-avatar"><img src="img/avatars/partonetrain_full.png"></img></div>
+                        <div class="team-name"><a href="https://github.com/Partonetrain">Partonetrain</a></div>
+                        <div class="team-role">Maintainer</div>
+                    </div>
+
+                    <br><br>
+
+                    <div class="team-member">
+                        <div class="team-avatar"><img src="img/avatars/brokenk3yboard_full.png"></img></div>
+                        <div class="team-name"><a href="https://github.com/BrokenK3yboard">BrokenK3yboard</a></div>
+                        <div class="team-role">Maintainer</div>
+                    </div>
 				</div>
 			</div>
 			<hr>
@@ -214,6 +229,7 @@
 					<li><b>MushirMickeyJoe</b> for the recreation of the bedrock piston model.</li>
 					<li><b>Nyodex</b> for the original Duskbound Block idea and textures.</li>
 					<li><b>wiiv</b> for serving as the main artist for the mod for a few years before passing the role to MCVinnyq</li>
+					<li><b>LeoBeliik</b> for being a reliable tester and even fixing some bugs.</li>
 					<li>The creators of all the awesome suggestions taken from /r/MinecraftSuggestions and /r/QuarkMod.</li>
 				</ul>
 			</div>
