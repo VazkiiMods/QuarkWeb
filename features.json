@@ -1624,7 +1624,7 @@
 			"image": "normal-zombie-villagers.jpg",
 			"added": "1.19.2",
 			"desc": [
-				"Zombie Villagers will now be guarnteed to be spawned when a villager is killed by a zombie in normal mode.",
+				"Zombie Villagers will now be guranteed to spawn when a villager is killed by a zombie in normal mode.",
 				"This is the default behavior on hard mode, and usually only a chance of happening on normal."
 			]
 		},
